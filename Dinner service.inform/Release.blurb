@@ -1,18 +1,18 @@
 ! Blurb file created by Inform build 6M62
 
-status "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/CblorbModel.html" "/Users/jtoyama19/Documents/GitHub/Dinner service /Dinner service.inform/Build/StatusCblorb.html"
+status "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/CblorbModel.html" "/Users/jtoyama19/Documents/GitHub/Dinner service /Dinner-service-/Dinner service.inform/Build/StatusCblorb.html"
 
 
 ! Identification
 
-project folder "/Users/jtoyama19/Documents/GitHub/Dinner service /Dinner service.inform"
-release to "/Users/jtoyama19/Documents/GitHub/Dinner service /Dinner service.materials/Release"
+project folder "/Users/jtoyama19/Documents/GitHub/Dinner service /Dinner-service-/Dinner service.inform"
+release to "/Users/jtoyama19/Documents/GitHub/Dinner service /Dinner-service-/Dinner service.materials/Release"
 
 ! Blorb instructions
 
 storyfile leafname "Dinner Service.gblorb"
-storyfile "/Users/jtoyama19/Documents/GitHub/Dinner service /Dinner service.inform/Build/output.ulx" include
-ifiction "/Users/jtoyama19/Documents/GitHub/Dinner service /Dinner service.inform/Metadata.iFiction" include
+storyfile "/Users/jtoyama19/Documents/GitHub/Dinner service /Dinner-service-/Dinner service.inform/Build/output.ulx" include
+ifiction "/Users/jtoyama19/Documents/GitHub/Dinner service /Dinner-service-/Dinner service.inform/Metadata.iFiction" include
 cover "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/Cover.jpg"
 picture 1 "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/Cover.jpg"
 

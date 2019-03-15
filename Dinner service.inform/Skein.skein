@@ -189,12 +189,21 @@ Plating station
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1356"></child>
+        <children><child nodeId="node-1359"></child>
+            <child nodeId="node-1356"></child>
         </children>
     </item>
     <item nodeId="node-1356">
         <command xml:space="preserve">x beet salad</command>
         <result xml:space="preserve">Roasted beet salad: ROASTED BEETS tossed with youg SPRING GREENS topped with a BALSAMIC dressing, toasted WALNUTS and GOAT CHEESE.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1359">
+        <command xml:space="preserve">take</command>
+        <result xml:space="preserve">(the Beet Salad description)
+That's hardly portable.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
