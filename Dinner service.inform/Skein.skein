@@ -9,25 +9,297 @@
 
 Dinner Service
 An Interactive Fiction by jtoyama19
-Release 1 / Serial number 190314 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 190401 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 Prep station
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1354"></child>
+        <children><child nodeId="node-1378"></child>
+            <child nodeId="node-1019"></child>
+            <child nodeId="node-1448"></child>
             <child nodeId="node-1003"></child>
+            <child nodeId="node-1358"></child>
         </children>
+    </item>
+    <item nodeId="node-1358">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1359"></child>
+        </children>
+    </item>
+    <item nodeId="node-1359">
+        <command xml:space="preserve">room</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1360"></child>
+        </children>
+    </item>
+    <item nodeId="node-1360">
+        <command xml:space="preserve">x prep station</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1361"></child>
+        </children>
+    </item>
+    <item nodeId="node-1361">
+        <command xml:space="preserve">x Prep station</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1362"></child>
+        </children>
+    </item>
+    <item nodeId="node-1362">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hot station
+You can see Sous vide Ribeye and Pomme puree here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1363"></child>
+        </children>
+    </item>
+    <item nodeId="node-1363">
+        <command xml:space="preserve">x pomme</command>
+        <result xml:space="preserve">Pomme puree: essentialy mashed potatoes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1364"></child>
+        </children>
+    </item>
+    <item nodeId="node-1364">
+        <command xml:space="preserve">x sous</command>
+        <result xml:space="preserve">A 12oz ribeye steak cooked to a perfect medium rare.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1365"></child>
+        </children>
+    </item>
+    <item nodeId="node-1365">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1366"></child>
+        </children>
+    </item>
+    <item nodeId="node-1366">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Prep station
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1367"></child>
+        </children>
+    </item>
+    <item nodeId="node-1367">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+cold station
+You can see Roasted beets and Vanilla custard here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1368"></child>
+        </children>
+    </item>
+    <item nodeId="node-1368">
+        <command xml:space="preserve">x beets</command>
+        <result xml:space="preserve">A mixture of multi-colored beets that have been roasted in the oven.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1003">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
-Wiine Cellar
+Wine Cellar
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1004"></child>
+            <child nodeId="node-1429"></child>
         </children>
+    </item>
+    <item nodeId="node-1429">
+        <command xml:space="preserve">open case</command>
+        <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1432"></child>
+        </children>
+    </item>
+    <item nodeId="node-1432">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1433"></child>
+        </children>
+    </item>
+    <item nodeId="node-1433">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1434"></child>
+        </children>
+    </item>
+    <item nodeId="node-1434">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1435"></child>
+        </children>
+    </item>
+    <item nodeId="node-1435">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Prep station
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1436"></child>
+        </children>
+    </item>
+    <item nodeId="node-1436">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hot station
+You can see Sous vide Ribeye and Pomme puree here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1437"></child>
+        </children>
+    </item>
+    <item nodeId="node-1437">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Plating station
+You can see Balsamic dressing, Walnuts, Cognac butter sauce and Whole cane sugar here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1438"></child>
+        </children>
+    </item>
+    <item nodeId="node-1438">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Pass
+You can see a Restaurant manager here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1439"></child>
+        </children>
+    </item>
+    <item nodeId="node-1439">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1440"></child>
+        </children>
+    </item>
+    <item nodeId="node-1440">
+        <command xml:space="preserve">ask manager for key</command>
+        <result xml:space="preserve">"excuse me, could I have the wine cellar key?" you ask. 
+
+ "Here" he replies as he tosses me the key
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1441"></child>
+        </children>
+    </item>
+    <item nodeId="node-1441">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Plating station
+You can see Balsamic dressing, Walnuts, Cognac butter sauce and Whole cane sugar here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1442"></child>
+        </children>
+    </item>
+    <item nodeId="node-1442">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Hot station
+You can see Sous vide Ribeye and Pomme puree here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1443"></child>
+        </children>
+    </item>
+    <item nodeId="node-1443">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1444"></child>
+        </children>
+    </item>
+    <item nodeId="node-1444">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Prep station
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1445"></child>
+        </children>
+    </item>
+    <item nodeId="node-1445">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Wine Cellar
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1446"></child>
+        </children>
+    </item>
+    <item nodeId="node-1446">
+        <command xml:space="preserve">unlock case</command>
+        <result xml:space="preserve">(with the Wine cellar key)
+You unlock Wine case.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1447"></child>
+        </children>
+    </item>
+    <item nodeId="node-1447">
+        <command xml:space="preserve">open case</command>
+        <result xml:space="preserve">You open Wine case.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1004">
         <command xml:space="preserve">e</command>
@@ -172,40 +444,436 @@ Wiine Cellar
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1354">
+    <item nodeId="node-1448">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+cold station
+You can see Roasted beets and Vanilla custard here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1449"></child>
+        </children>
+    </item>
+    <item nodeId="node-1449">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Plating station
+You can see Balsamic dressing, Walnuts, Cognac butter sauce and Whole cane sugar here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1450"></child>
+        </children>
+    </item>
+    <item nodeId="node-1450">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Pass
+You can see a Restaurant manager here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1451"></child>
+        </children>
+    </item>
+    <item nodeId="node-1451">
+        <command xml:space="preserve">talk to manager</command>
+        <result xml:space="preserve">"What do you want!?" he snapps 
+
+ "If you need something ask for it."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1452"></child>
+        </children>
+    </item>
+    <item nodeId="node-1452">
+        <command xml:space="preserve">ask manager for key</command>
+        <result xml:space="preserve">"excuse me, could I have the wine cellar key?" you ask. 
+
+ "Here" he replies as he tosses me the key
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1453"></child>
+        </children>
+    </item>
+    <item nodeId="node-1453">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a Wine cellar key
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1019">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Hot station
+You can see Sous vide Ribeye and Pomme puree here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1355"></child>
+        <children><child nodeId="node-1020"></child>
         </children>
     </item>
-    <item nodeId="node-1355">
+    <item nodeId="node-1020">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Plating station
+You can see Balsamic dressing, Walnuts, Cognac butter sauce and Whole cane sugar here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1359"></child>
-            <child nodeId="node-1356"></child>
+        <children><child nodeId="node-1371"></child>
+            <child nodeId="node-1022"></child>
+            <child nodeId="node-1021"></child>
         </children>
     </item>
-    <item nodeId="node-1356">
+    <item nodeId="node-1021">
         <command xml:space="preserve">x beet salad</command>
         <result xml:space="preserve">Roasted beet salad: ROASTED BEETS tossed with youg SPRING GREENS topped with a BALSAMIC dressing, toasted WALNUTS and GOAT CHEESE.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1359">
+    <item nodeId="node-1022">
         <command xml:space="preserve">take</command>
         <result xml:space="preserve">(the Beet Salad description)
 That's hardly portable.
 
 &gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1371">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Pass
+You can see a Restaurant manager here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1376"></child>
+            <child nodeId="node-1389"></child>
+            <child nodeId="node-1372"></child>
+        </children>
+    </item>
+    <item nodeId="node-1372">
+        <command xml:space="preserve">x manager</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1389">
+        <command xml:space="preserve">talk to manager</command>
+        <result xml:space="preserve">"What do you want!?" he snapps 
+
+ "If you need something ask for it."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1398"></child>
+        </children>
+    </item>
+    <item nodeId="node-1398">
+        <command xml:space="preserve">ask for key</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1376">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1420"></child>
+            <child nodeId="node-1403"></child>
+            <child nodeId="node-1377"></child>
+        </children>
+    </item>
+    <item nodeId="node-1377">
+        <command xml:space="preserve">talk to manager</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1403">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1404"></child>
+        </children>
+    </item>
+    <item nodeId="node-1404">
+        <command xml:space="preserve">ask manager for key</command>
+        <result xml:space="preserve">"excuse me, could I have the wine cellar key?" you ask. 
+
+ "Here" he replies as he tosses me the key
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1405"></child>
+        </children>
+    </item>
+    <item nodeId="node-1405">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a Wine cellar key
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1406"></child>
+        </children>
+    </item>
+    <item nodeId="node-1406">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1407"></child>
+        </children>
+    </item>
+    <item nodeId="node-1407">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1408"></child>
+        </children>
+    </item>
+    <item nodeId="node-1408">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Plating station
+You can see Balsamic dressing, Walnuts, Cognac butter sauce and Whole cane sugar here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1409"></child>
+        </children>
+    </item>
+    <item nodeId="node-1409">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Hot station
+You can see Sous vide Ribeye and Pomme puree here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1410"></child>
+        </children>
+    </item>
+    <item nodeId="node-1410">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Prep station
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1411"></child>
+        </children>
+    </item>
+    <item nodeId="node-1411">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+cold station
+You can see Roasted beets and Vanilla custard here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1412"></child>
+        </children>
+    </item>
+    <item nodeId="node-1412">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1413"></child>
+        </children>
+    </item>
+    <item nodeId="node-1413">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Prep station
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1414"></child>
+        </children>
+    </item>
+    <item nodeId="node-1414">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Wiine Cellar
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1415"></child>
+        </children>
+    </item>
+    <item nodeId="node-1415">
+        <command xml:space="preserve">x wine case</command>
+        <result xml:space="preserve">I only understood you as far as wanting to examine the Wine cellar key.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1420">
+        <command xml:space="preserve">ask for key</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1421"></child>
+        </children>
+    </item>
+    <item nodeId="node-1421">
+        <command xml:space="preserve">ask manager for key</command>
+        <result xml:space="preserve">"excuse me, could I have the wine cellar key?" you ask. 
+
+ "Here" he replies as he tosses me the key
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1422"></child>
+        </children>
+    </item>
+    <item nodeId="node-1422">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Plating station
+You can see Balsamic dressing, Walnuts, Cognac butter sauce and Whole cane sugar here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1423"></child>
+        </children>
+    </item>
+    <item nodeId="node-1423">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Hot station
+You can see Sous vide Ribeye and Pomme puree here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1424"></child>
+        </children>
+    </item>
+    <item nodeId="node-1424">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Prep station
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1425"></child>
+        </children>
+    </item>
+    <item nodeId="node-1425">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Wiine Cellar
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1426"></child>
+        </children>
+    </item>
+    <item nodeId="node-1426">
+        <command xml:space="preserve">x wine case</command>
+        <result xml:space="preserve">I only understood you as far as wanting to examine the Wine cellar key.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1427"></child>
+        </children>
+    </item>
+    <item nodeId="node-1427">
+        <command xml:space="preserve">open wine case</command>
+        <result xml:space="preserve">I only understood you as far as wanting to open the Wine cellar key.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1378">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1379"></child>
+        </children>
+    </item>
+    <item nodeId="node-1379">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hot station
+You can see Sous vide Ribeye and Pomme puree here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1380"></child>
+        </children>
+    </item>
+    <item nodeId="node-1380">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Plating station
+You can see Balsamic dressing, Walnuts, Cognac butter sauce and Whole cane sugar here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1381"></child>
+        </children>
+    </item>
+    <item nodeId="node-1381">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Pass
+You can see a Restaurant manager here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1382"></child>
+        </children>
+    </item>
+    <item nodeId="node-1382">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1383"></child>
+        </children>
+    </item>
+    <item nodeId="node-1383">
+        <command xml:space="preserve">talk to manager</command>
+        <result xml:space="preserve">&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1384"></child>
+        </children>
+    </item>
+    <item nodeId="node-1384">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1385"></child>
+        </children>
+    </item>
+    <item nodeId="node-1385">
+        <command xml:space="preserve">talk to manager</command>
+        <result xml:space="preserve">&gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
 </Skein>
