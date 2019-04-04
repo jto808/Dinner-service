@@ -1,8 +1,10 @@
 "Dinner Service" by jtoyama19
 
-The Prep station is a room. It is west of the Hot station. It is north of the cold station. it is south of the Walk-in. it is east of the Wine Cellar. 
 
 The Hot station is a room. It is east of the Prep station. It is north of the Plating station.   Sous vide Ribeye is a thing in the hot station. The description is "A 12oz ribeye steak cooked to a perfect medium rare." Pomme puree is a thing in the hot station. The description is "Pomme puree: essentialy mashed potatoes." 
+
+The Prep station is a room. It is west of the Hot station. It is north of the cold station. it is south of the Walk-in. it is east of the Wine Cellar. 
+
 
 The cold station is a room. The Cold station is south of the Prep station. It is west of the Plating station. 
 Roasted beets is a thing in the Cold station. The description is "A mixture of multi-colored beets that have been roasted in the oven." Vanilla custard is a thing in the Cold station. The description is "A velvety vanilla cream custard." 
@@ -28,7 +30,7 @@ Instead of talking to the manager:
 say "'What do you want!?' he snapps [paragraph break] 'If you need something ask for it.'"
 
 Asking is an action applying to one visible thing.
-Understand "ask [Manager] for wine cellar key" or "ask [Manager] about wine cellar key" or "ask [Manager] about key" or "ask [Manager] about cellar key" or "ask [Manager] for key" as asking. 
+Understand "ask [Manager] for wine cellar key" or "ask [Manager] about wine cellar key" or "ask [Manager] about key" or "ask [Manager] about cellar key" or "ask [Manager] for key" or "ask [manager] for cellar key" as asking. 
 Instead of asking the manager:
 say "'excuse me, could I have the wine cellar key?' you ask. [paragraph break] 'Here' he replies as he tosses me the key";
 move wine cellar key to player 
