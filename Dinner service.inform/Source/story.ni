@@ -1,7 +1,7 @@
 "Dinner Service" by jtoyama19
 
 
-The Hot station is a room. It is east of the Prep station. It is north of the Plating station.   Sous vide Ribeye is a thing in the hot station. The description is "A 12oz ribeye steak cooked to a perfect medium rare." Pomme puree is a thing in the hot station. The description is "Pomme puree: essentialy mashed potatoes." 
+The Hot station is a room. It is east of the Prep station. It is north of the Plating station.   Sous-vide Ribeye is a thing in the hot station. The description is "A 12oz ribeye steak cooked to a perfect medium rare." Pomme puree is a thing in the hot station. The description is "Pomme puree: essentialy mashed potatoes." 
 
 The Prep station is a room. It is west of the Hot station. It is north of the cold station. it is south of the Walk-in. it is east of the Wine Cellar. 
 
@@ -9,22 +9,23 @@ The Prep station is a room. It is west of the Hot station. It is north of the co
 The cold station is a room. The Cold station is south of the Prep station. It is west of the Plating station. 
 Roasted beets is a thing in the Cold station. The description is "A mixture of multi-colored beets that have been roasted in the oven." Vanilla custard is a thing in the Cold station. The description is "A velvety vanilla cream custard." 
 
-The plating station is a room. it is south of the Hot station. It is west of the Break room. It is east of the Cold station. The Beet Salad description is scenery in the Plating station. The description is "Roasted beet salad: ROASTED BEETS tossed with youg SPRING GREENS topped with a BALSAMIC dressing, toasted WALNUTS and GOAT CHEESE." The Ribeye description is scenery in the Plating station. The description is "A sous vide RIBEYE, accompanied by POMME PUREE, and sautéed HERICOTS VERTS topped with a COGNAC BUTTER SAUCE." The Creme Brulee description is scenery in the Plating station. The description is "Madagascar vanilla bean CUSTARD bruleed with whole CANE SUGAR and topped with mixed seasonal FRUIT." 
+The plating station is a room. it is south of the Hot station. It is west of the Break room. It is east of the Cold station. The Beet Salad description is scenery in the Plating station. The description is "Roasted beet salad: ROASTED BEETS tossed with youg SPRING GREENS topped with a BALSAMIC dressing, toasted WALNUTS and GOAT CHEESE." The Ribeye description is scenery in the Plating station. The description is "A sous vide RIBEYE, accompanied by POMME PUREE, and sautéed HERICOTS VERTS topped with a BUTTER SAUCE." The Creme Brulee description is scenery in the Plating station. The description is "Madagascar vanilla bean CUSTARD bruleed with whole CANE SUGAR and topped with mixed seasonal FRUIT." 
 
-Balsamic dressing is a thing in the Plating station. The description is "A dark vinaigrette with a distinct intense flavor." Walnuts are a thing in the plating station. The description is " Lightly toasted walnuts chopped into small pieces. A good way to add a different texture to salads." Cognac butter sauce is a thing in the Plating station. The description is "A rich and creamy butter sauce reduction with cognac. It is a wonderful topping for steak." Whole cane sugar is a thing in the Plating station. The description is "An organic suger with a light amber color. The grains are much larger than that of regular white suger." 
+Balsamic dressing is a thing in the Plating station. The description is "A dark vinaigrette with a distinct intense flavor." Walnuts are a thing in the plating station. The description is " Lightly toasted walnuts chopped into small pieces. A good way to add a different texture to salads." Butter sauce is a thing in the Plating station. The description is "A rich and creamy butter sauce reduction with cognac. It is a wonderful topping for steak." Whole cane sugar is a thing in the Plating station. The description is "An organic suger with a light amber color. The grains are much larger than that of regular white suger." 
 
 The Break room is a room. It is east of the plating station. 
 
-The Walk-in is a room. it is north of the Prep station. Young spring greens is a thing in the walk-in. The description is "A mixture of young spinach, baby arugula, and lettuce. Perfect for a salad to start any meal."  Goat cheese is a thing in the walk-in. The description is "A super creamy cheese with a unique flavor. The color is prestine white and it is wonderful in salads." Hericot verts is a thing in the Walk-in. The description is "Vibrant green french green beans. A little longer and thinner than the average supermarket variety."  Mixed seasonal fruit is a thing in the Walk-in. The description is "A mixture of the freshest fruit that the farmers market has to offer."
+The Walk-in is a room. it is north of the Prep station. spring greens is a thing in the walk-in. The description is "A mixture of young spinach, baby arugula, and lettuce. Perfect for a salad to start any meal."  Goat cheese is a thing in the walk-in. The description is "A super creamy cheese with a unique flavor. The color is prestine white and it is wonderful in salads." Hericot verts is a thing in the Walk-in. The description is "Vibrant green french green beans. A little longer and thinner than the average supermarket variety."  Mixed seasonal fruit is a thing in the Walk-in. The description is "A mixture of the freshest fruit that the farmers market has to offer."
 
 The Wine cellar is a room. Wine case is scenery in the Wine cellar. It is a closed and openable container. It is locked and lockable. the description is "A case made from wood and glass pannels. Inside are the best and mose expensive wines in the restaurant." Fine white wine is a thing in the wine case. The description is "A fine white wine imported from France."  Fine red wine is a thing in the wine case. The description is "A fine red wine imported from Italy." Champagne is a thing in the wine case. The description is "A superior champagne imported from France. It is the perfect way to finish off a wonderful meal." The Wine cellar key unlocks the wine case.
 
 The Pass is a room. It is south of the Plating station. 
 The Restaurant manager is in the Pass. The description of the manager is "A rather short french man in his late thirties. He is very tightly wound and he takes his job very seriously." The wine cellar key is a thing held by the Restaurant manager.  
-The menu is a thing carried by the manager. the description is "Printed in a small font it reads: App is a roasted beet salad. Dinner is a ribeye steak. Dessert is a creme brulee. The first two dishes will be served with a fine red wine and dessert will be served with champagne."
+
+The menu is a thing carried by the manager. the description is "Printed in a small font it reads: App is a roasted beet salad. Dinner is a ribeye steak. Dessert is a creme brulee. The first two dishes will be served with a fine red wine and dessert will be served with champagne. Obviously, first app, then dinner, then desert."
 The printed name of menu is "Special Menu" 
 
-The pickup table is scenery in the pass. 
+The pickup table is a supporter in the pass. 
 
  Instead of asking Manager about "wine cellar key":
 	try asking Manager about "key" instead.
@@ -62,8 +63,14 @@ Instead of asking Manager about something:
 The counter is a supporter in the plating station. 
 
 The prep plate is a supporter on the counter. 
+App is a thing. The printed name is "Roasted beet salad.".
+The description is "A salad of fresh spring greens, toased wallnuts, goat cheese, balsamic dressing and, oven roasted beets."
 
+Dinner is a thing. The printed name is "Sous vide Ribeye". 
+The description is "A sous vide prime grade ribeye served alongside pomme puree and hericot verts. With a congac butter sauce drizzled on top."
 
+dessert is a thing. The printed name is "Vanilla creme brulee".
+The description is "A vanilla creme brulee topped with a mixture of fresh fruit.". 
 
 Understand "plate" as prepping.
 Prepping is an action applying to nothing.
@@ -104,3 +111,18 @@ Carry out prepping:
 	
 Report prepping:
 	say "You now have a [a Substance] properly plated. Now take it to the pass!"
+	
+
+The bell is scenery in the pass. 
+
+
+
+instead of eating dinner:
+	say "This steak looks amazing but it is not for you to eat."
+	
+instead of eating app:
+	say "The salad is quite tempting but you would get in trouble if you ate it."
+
+Instead of eating dessert:
+	say "Although the creme brulee looks tasty you should not eat it." 
+

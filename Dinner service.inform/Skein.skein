@@ -9,42 +9,33 @@
 
 Dinner Service
 An Interactive Fiction by jtoyama19
-Release 1 / Serial number 190405 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 190411 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 Hot station
-You can see Sous vide Ribeye and Pomme puree here.
+You can see Sous-vide Ribeye and Pomme puree here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1116"></child>
-            <child nodeId="node-1080"></child>
-            <child nodeId="node-1260"></child>
-            <child nodeId="node-1047"></child>
-            <child nodeId="node-1173"></child>
-            <child nodeId="node-1014"></child>
+        <children><child nodeId="node-1387"></child>
+            <child nodeId="node-1351"></child>
+            <child nodeId="node-1350"></child>
+            <child nodeId="node-1273"></child>
+            <child nodeId="node-1048"></child>
+            <child nodeId="node-1015"></child>
+            <child nodeId="node-1004"></child>
             <child nodeId="node-1003"></child>
-            <child nodeId="node-1331"></child>
         </children>
     </item>
-    <item nodeId="node-1331">
+    <item nodeId="node-1003">
         <command xml:space="preserve">x pomme</command>
         <result xml:space="preserve">Pomme puree: essentialy mashed potatoes.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1003">
+    <item nodeId="node-1004">
         <command xml:space="preserve">x</command>
         <result xml:space="preserve">What do you want to examine?
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1004"></child>
-        </children>
-    </item>
-    <item nodeId="node-1004">
-        <command xml:space="preserve">room</command>
-        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -52,7 +43,7 @@ You can see Sous vide Ribeye and Pomme puree here.
         </children>
     </item>
     <item nodeId="node-1005">
-        <command xml:space="preserve">x prep station</command>
+        <command xml:space="preserve">room</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
@@ -61,7 +52,7 @@ You can see Sous vide Ribeye and Pomme puree here.
         </children>
     </item>
     <item nodeId="node-1006">
-        <command xml:space="preserve">x Prep station</command>
+        <command xml:space="preserve">x prep station</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
@@ -70,10 +61,8 @@ You can see Sous vide Ribeye and Pomme puree here.
         </children>
     </item>
     <item nodeId="node-1007">
-        <command xml:space="preserve">e</command>
-        <result xml:space="preserve">
-Hot station
-You can see Sous vide Ribeye and Pomme puree here.
+        <command xml:space="preserve">x Prep station</command>
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -81,8 +70,10 @@ You can see Sous vide Ribeye and Pomme puree here.
         </children>
     </item>
     <item nodeId="node-1008">
-        <command xml:space="preserve">x pomme</command>
-        <result xml:space="preserve">Pomme puree: essentialy mashed potatoes.
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hot station
+You can see Sous vide Ribeye and Pomme puree here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -90,8 +81,8 @@ You can see Sous vide Ribeye and Pomme puree here.
         </children>
     </item>
     <item nodeId="node-1009">
-        <command xml:space="preserve">x sous</command>
-        <result xml:space="preserve">A 12oz ribeye steak cooked to a perfect medium rare.
+        <command xml:space="preserve">x pomme</command>
+        <result xml:space="preserve">Pomme puree: essentialy mashed potatoes.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -99,8 +90,8 @@ You can see Sous vide Ribeye and Pomme puree here.
         </children>
     </item>
     <item nodeId="node-1010">
-        <command xml:space="preserve">e</command>
-        <result xml:space="preserve">You can't go that way.
+        <command xml:space="preserve">x sous</command>
+        <result xml:space="preserve">A 12oz ribeye steak cooked to a perfect medium rare.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -108,9 +99,8 @@ You can see Sous vide Ribeye and Pomme puree here.
         </children>
     </item>
     <item nodeId="node-1011">
-        <command xml:space="preserve">w</command>
-        <result xml:space="preserve">
-Prep station
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -118,10 +108,9 @@ Prep station
         </children>
     </item>
     <item nodeId="node-1012">
-        <command xml:space="preserve">s</command>
+        <command xml:space="preserve">w</command>
         <result xml:space="preserve">
-cold station
-You can see Roasted beets and Vanilla custard here.
+Prep station
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -129,35 +118,37 @@ You can see Roasted beets and Vanilla custard here.
         </children>
     </item>
     <item nodeId="node-1013">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+cold station
+You can see Roasted beets and Vanilla custard here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1014"></child>
+        </children>
+    </item>
+    <item nodeId="node-1014">
         <command xml:space="preserve">x beets</command>
         <result xml:space="preserve">A mixture of multi-colored beets that have been roasted in the oven.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1014">
+    <item nodeId="node-1015">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Wine Cellar
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1032"></child>
-            <child nodeId="node-1015"></child>
-        </children>
-    </item>
-    <item nodeId="node-1015">
-        <command xml:space="preserve">open case</command>
-        <result xml:space="preserve">It seems to be locked.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1016"></child>
+        <children><child nodeId="node-1033"></child>
+            <child nodeId="node-1016"></child>
         </children>
     </item>
     <item nodeId="node-1016">
-        <command xml:space="preserve">w</command>
-        <result xml:space="preserve">You can't go that way.
+        <command xml:space="preserve">open case</command>
+        <result xml:space="preserve">It seems to be locked.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -165,8 +156,8 @@ Wine Cellar
         </children>
     </item>
     <item nodeId="node-1017">
-        <command xml:space="preserve"></command>
-        <result xml:space="preserve">I beg your pardon?
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -174,8 +165,8 @@ Wine Cellar
         </children>
     </item>
     <item nodeId="node-1018">
-        <command xml:space="preserve">s</command>
-        <result xml:space="preserve">You can't go that way.
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -183,9 +174,8 @@ Wine Cellar
         </children>
     </item>
     <item nodeId="node-1019">
-        <command xml:space="preserve">e</command>
-        <result xml:space="preserve">
-Prep station
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -195,8 +185,7 @@ Prep station
     <item nodeId="node-1020">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
-Hot station
-You can see Sous vide Ribeye and Pomme puree here.
+Prep station
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -204,10 +193,10 @@ You can see Sous vide Ribeye and Pomme puree here.
         </children>
     </item>
     <item nodeId="node-1021">
-        <command xml:space="preserve">s</command>
+        <command xml:space="preserve">e</command>
         <result xml:space="preserve">
-Plating station
-You can see Balsamic dressing, Walnuts, Cognac butter sauce and Whole cane sugar here.
+Hot station
+You can see Sous vide Ribeye and Pomme puree here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -217,8 +206,8 @@ You can see Balsamic dressing, Walnuts, Cognac butter sauce and Whole cane sugar
     <item nodeId="node-1022">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
-Pass
-You can see a Restaurant manager here.
+Plating station
+You can see Balsamic dressing, Walnuts, Cognac butter sauce and Whole cane sugar here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -227,7 +216,9 @@ You can see a Restaurant manager here.
     </item>
     <item nodeId="node-1023">
         <command xml:space="preserve">s</command>
-        <result xml:space="preserve">You can't go that way.
+        <result xml:space="preserve">
+Pass
+You can see a Restaurant manager here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -235,21 +226,19 @@ You can see a Restaurant manager here.
         </children>
     </item>
     <item nodeId="node-1024">
-        <command xml:space="preserve">ask manager for key</command>
-        <result xml:space="preserve">"excuse me, could I have the wine cellar key?" you ask. 
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
 
- "Here" he replies as he tosses me the key
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1025"></child>
         </children>
     </item>
     <item nodeId="node-1025">
-        <command xml:space="preserve">n</command>
-        <result xml:space="preserve">
-Plating station
-You can see Balsamic dressing, Walnuts, Cognac butter sauce and Whole cane sugar here.
+        <command xml:space="preserve">ask manager for key</command>
+        <result xml:space="preserve">"excuse me, could I have the wine cellar key?" you ask. 
 
+ "Here" he replies as he tosses me the key
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1026"></child>
@@ -258,8 +247,8 @@ You can see Balsamic dressing, Walnuts, Cognac butter sauce and Whole cane sugar
     <item nodeId="node-1026">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
-Hot station
-You can see Sous vide Ribeye and Pomme puree here.
+Plating station
+You can see Balsamic dressing, Walnuts, Cognac butter sauce and Whole cane sugar here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -268,7 +257,9 @@ You can see Sous vide Ribeye and Pomme puree here.
     </item>
     <item nodeId="node-1027">
         <command xml:space="preserve">n</command>
-        <result xml:space="preserve">You can't go that way.
+        <result xml:space="preserve">
+Hot station
+You can see Sous vide Ribeye and Pomme puree here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -276,9 +267,8 @@ You can see Sous vide Ribeye and Pomme puree here.
         </children>
     </item>
     <item nodeId="node-1028">
-        <command xml:space="preserve">w</command>
-        <result xml:space="preserve">
-Prep station
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -288,7 +278,7 @@ Prep station
     <item nodeId="node-1029">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
-Wine Cellar
+Prep station
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -296,9 +286,9 @@ Wine Cellar
         </children>
     </item>
     <item nodeId="node-1030">
-        <command xml:space="preserve">unlock case</command>
-        <result xml:space="preserve">(with the Wine cellar key)
-You unlock Wine case.
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Wine Cellar
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -306,26 +296,26 @@ You unlock Wine case.
         </children>
     </item>
     <item nodeId="node-1031">
+        <command xml:space="preserve">unlock case</command>
+        <result xml:space="preserve">(with the Wine cellar key)
+You unlock Wine case.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1032"></child>
+        </children>
+    </item>
+    <item nodeId="node-1032">
         <command xml:space="preserve">open case</command>
         <result xml:space="preserve">You open Wine case.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1032">
+    <item nodeId="node-1033">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Prep station
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1033"></child>
-        </children>
-    </item>
-    <item nodeId="node-1033">
-        <command xml:space="preserve">w</command>
-        <result xml:space="preserve">
-Wiine Cellar
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -333,9 +323,9 @@ Wiine Cellar
         </children>
     </item>
     <item nodeId="node-1034">
-        <command xml:space="preserve">e</command>
+        <command xml:space="preserve">w</command>
         <result xml:space="preserve">
-Prep station
+Wiine Cellar
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -343,9 +333,9 @@ Prep station
         </children>
     </item>
     <item nodeId="node-1035">
-        <command xml:space="preserve">w</command>
+        <command xml:space="preserve">e</command>
         <result xml:space="preserve">
-Wiine Cellar
+Prep station
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -353,9 +343,9 @@ Wiine Cellar
         </children>
     </item>
     <item nodeId="node-1036">
-        <command xml:space="preserve">e</command>
+        <command xml:space="preserve">w</command>
         <result xml:space="preserve">
-Prep station
+Wiine Cellar
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -363,8 +353,9 @@ Prep station
         </children>
     </item>
     <item nodeId="node-1037">
-        <command xml:space="preserve">we</command>
-        <result xml:space="preserve">That's not a verb I recognise.
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Prep station
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -372,9 +363,8 @@ Prep station
         </children>
     </item>
     <item nodeId="node-1038">
-        <command xml:space="preserve">w</command>
-        <result xml:space="preserve">
-Wiine Cellar
+        <command xml:space="preserve">we</command>
+        <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -383,7 +373,8 @@ Wiine Cellar
     </item>
     <item nodeId="node-1039">
         <command xml:space="preserve">w</command>
-        <result xml:space="preserve">You can't go that way.
+        <result xml:space="preserve">
+Wiine Cellar
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -391,9 +382,8 @@ Wiine Cellar
         </children>
     </item>
     <item nodeId="node-1040">
-        <command xml:space="preserve">e</command>
-        <result xml:space="preserve">
-Prep station
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -401,8 +391,9 @@ Prep station
         </children>
     </item>
     <item nodeId="node-1041">
-        <command xml:space="preserve">we</command>
-        <result xml:space="preserve">That's not a verb I recognise.
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Prep station
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -410,9 +401,8 @@ Prep station
         </children>
     </item>
     <item nodeId="node-1042">
-        <command xml:space="preserve">w</command>
-        <result xml:space="preserve">
-Wiine Cellar
+        <command xml:space="preserve">we</command>
+        <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -421,7 +411,8 @@ Wiine Cellar
     </item>
     <item nodeId="node-1043">
         <command xml:space="preserve">w</command>
-        <result xml:space="preserve">You can't go that way.
+        <result xml:space="preserve">
+Wiine Cellar
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -429,9 +420,8 @@ Wiine Cellar
         </children>
     </item>
     <item nodeId="node-1044">
-        <command xml:space="preserve">e</command>
-        <result xml:space="preserve">
-Prep station
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -439,8 +429,9 @@ Prep station
         </children>
     </item>
     <item nodeId="node-1045">
-        <command xml:space="preserve">we</command>
-        <result xml:space="preserve">That's not a verb I recognise.
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Prep station
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -448,6 +439,15 @@ Prep station
         </children>
     </item>
     <item nodeId="node-1046">
+        <command xml:space="preserve">we</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1047"></child>
+        </children>
+    </item>
+    <item nodeId="node-1047">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Wiine Cellar
@@ -455,40 +455,387 @@ Wiine Cellar
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1173">
+    <item nodeId="node-1048">
         <command xml:space="preserve">take all</command>
-        <result xml:space="preserve">Sous vide Ribeye: Taken.
+        <result xml:space="preserve">Sous-vide Ribeye: Taken.
 Pomme puree: Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1174"></child>
-            <child nodeId="node-1180"></child>
-            <child nodeId="node-1257"></child>
+        <children><child nodeId="node-1226"></child>
+            <child nodeId="node-1075"></child>
+            <child nodeId="node-1049"></child>
         </children>
     </item>
-    <item nodeId="node-1257">
+    <item nodeId="node-1049">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Prep station
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1258"></child>
+        <children><child nodeId="node-1050"></child>
         </children>
     </item>
-    <item nodeId="node-1258">
+    <item nodeId="node-1050">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Walk-in
-You can see Young spring greens, Goat cheese, Hericot verts and Mixed seasonal fruit here.
+You can see spring greens, Goat cheese, Hericot verts and Mixed seasonal fruit here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1259"></child>
+        <children><child nodeId="node-1074"></child>
+            <child nodeId="node-1061"></child>
+            <child nodeId="node-1419"></child>
+            <child nodeId="node-1051"></child>
         </children>
     </item>
-    <item nodeId="node-1259">
+    <item nodeId="node-1051">
+        <command xml:space="preserve">take vets</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1052"></child>
+        </children>
+    </item>
+    <item nodeId="node-1052">
+        <command xml:space="preserve">take verts</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1053"></child>
+        </children>
+    </item>
+    <item nodeId="node-1053">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Prep station
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1054"></child>
+        </children>
+    </item>
+    <item nodeId="node-1054">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+cold station
+You can see Roasted beets and Vanilla custard here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1055"></child>
+        </children>
+    </item>
+    <item nodeId="node-1055">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Plating station
+You can see Balsamic dressing, Walnuts, Butter sauce, Whole cane sugar and a counter (on which is a prep plate) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1056"></child>
+        </children>
+    </item>
+    <item nodeId="node-1056">
+        <command xml:space="preserve">take sauce</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1057"></child>
+        </children>
+    </item>
+    <item nodeId="node-1057">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Pass
+You can see a Restaurant manager here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1058"></child>
+        </children>
+    </item>
+    <item nodeId="node-1058">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Plating station
+You can see Balsamic dressing, Walnuts, Whole cane sugar and a counter (on which is a prep plate) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1059"></child>
+        </children>
+    </item>
+    <item nodeId="node-1059">
+        <command xml:space="preserve">put all on plate</command>
+        <result xml:space="preserve">Butter sauce: Done.
+Hericot verts: Done.
+Pomme puree: Done.
+Sous vide Ribeye: Done.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1060"></child>
+        </children>
+    </item>
+    <item nodeId="node-1060">
+        <command xml:space="preserve">plate dinner</command>
+        <result xml:space="preserve">This is not a correct combination for any of the special menu dishes. 
+You should try again.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1419">
+        <command xml:space="preserve">take verts</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1420"></child>
+        </children>
+    </item>
+    <item nodeId="node-1420">
+        <command xml:space="preserve">take all e</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1421"></child>
+        </children>
+    </item>
+    <item nodeId="node-1421">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Prep station
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1422"></child>
+        </children>
+    </item>
+    <item nodeId="node-1422">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+cold station
+You can see Roasted beets and Vanilla custard here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1423"></child>
+        </children>
+    </item>
+    <item nodeId="node-1423">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Plating station
+You can see Balsamic dressing, Walnuts, Butter sauce, Whole cane sugar and a counter (on which is a prep plate) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1424"></child>
+        </children>
+    </item>
+    <item nodeId="node-1424">
+        <command xml:space="preserve">take sauce</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1425"></child>
+        </children>
+    </item>
+    <item nodeId="node-1425">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  Butter sauce
+  Hericot verts
+  Pomme puree
+  Sous-vide Ribeye
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1426"></child>
+        </children>
+    </item>
+    <item nodeId="node-1426">
+        <command xml:space="preserve">put all on plate</command>
+        <result xml:space="preserve">Butter sauce: Done.
+Hericot verts: Done.
+Pomme puree: Done.
+Sous-vide Ribeye: Done.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1427"></child>
+        </children>
+    </item>
+    <item nodeId="node-1427">
+        <command xml:space="preserve">plate dinne</command>
+        <result xml:space="preserve">I only understood you as far as wanting to plate.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1428"></child>
+        </children>
+    </item>
+    <item nodeId="node-1428">
+        <command xml:space="preserve">plate dinner</command>
+        <result xml:space="preserve">You put together Sous-vide Ribeye, Pomme puree, Hericot verts and Butter sauce.
+
+You now have a Sous vide Ribeye properly plated. Now take it to the pass!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1429"></child>
+        </children>
+    </item>
+    <item nodeId="node-1429">
+        <command xml:space="preserve">x dinner</command>
+        <result xml:space="preserve">A sous vide prime grade ribeye served alongside pomme puree and hericot verts. With a congac butter sauce drizzled on top.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1061">
+        <command xml:space="preserve">take vert</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1062"></child>
+        </children>
+    </item>
+    <item nodeId="node-1062">
+        <command xml:space="preserve">take verts</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1063"></child>
+        </children>
+    </item>
+    <item nodeId="node-1063">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Prep station
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1064"></child>
+        </children>
+    </item>
+    <item nodeId="node-1064">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+cold station
+You can see Roasted beets and Vanilla custard here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1065"></child>
+        </children>
+    </item>
+    <item nodeId="node-1065">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Plating station
+You can see Balsamic dressing, Walnuts, Butter sauce, Whole cane sugar and a counter (on which is a prep plate) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1066"></child>
+        </children>
+    </item>
+    <item nodeId="node-1066">
+        <command xml:space="preserve">take sauce</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1067"></child>
+        </children>
+    </item>
+    <item nodeId="node-1067">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  Butter sauce
+  Hericot verts
+  Pomme puree
+  Sous-vide Ribeye
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1068"></child>
+        </children>
+    </item>
+    <item nodeId="node-1068">
+        <command xml:space="preserve">put all on plate</command>
+        <result xml:space="preserve">Butter sauce: Done.
+Hericot verts: Done.
+Pomme puree: Done.
+Sous-vide Ribeye: Done.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1069"></child>
+        </children>
+    </item>
+    <item nodeId="node-1069">
+        <command xml:space="preserve">plate dinner</command>
+        <result xml:space="preserve">You put together Sous-vide Ribeye, Pomme puree, Hericot verts and Butter sauce.
+
+You now have a dinner properly plated. Now take it to the pass!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1070"></child>
+        </children>
+    </item>
+    <item nodeId="node-1070">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  dinner
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1071"></child>
+        </children>
+    </item>
+    <item nodeId="node-1071">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Pass
+You can see a Restaurant manager here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1072"></child>
+        </children>
+    </item>
+    <item nodeId="node-1072">
+        <command xml:space="preserve">put dinner on tabel</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1073"></child>
+        </children>
+    </item>
+    <item nodeId="node-1073">
+        <command xml:space="preserve">put dinner on table</command>
+        <result xml:space="preserve">Putting things on the pickup table would achieve nothing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1074">
         <command xml:space="preserve">take all</command>
         <result xml:space="preserve">Young spring greens: Taken.
 Goat cheese: Taken.
@@ -498,88 +845,91 @@ Mixed seasonal fruit: Taken.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1180">
+    <item nodeId="node-1075">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Plating station
-You can see Balsamic dressing, Walnuts, Cognac butter sauce, Whole cane sugar and a counter (on which is a final plate) here.
+You can see Balsamic dressing, Walnuts, Butter sauce, Whole cane sugar and a counter (on which is a prep plate) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1181"></child>
+        <children><child nodeId="node-1223"></child>
+            <child nodeId="node-1147"></child>
+            <child nodeId="node-1076"></child>
         </children>
     </item>
-    <item nodeId="node-1181">
+    <item nodeId="node-1076">
         <command xml:space="preserve">take sauce</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1182"></child>
+        <children><child nodeId="node-1077"></child>
         </children>
     </item>
-    <item nodeId="node-1182">
+    <item nodeId="node-1077">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Hot station
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1183"></child>
-            <child nodeId="node-1244"></child>
+        <children><child nodeId="node-1090"></child>
+            <child nodeId="node-1078"></child>
         </children>
     </item>
-    <item nodeId="node-1244">
+    <item nodeId="node-1078">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Prep station
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1245"></child>
+        <children><child nodeId="node-1079"></child>
         </children>
     </item>
-    <item nodeId="node-1245">
+    <item nodeId="node-1079">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Walk-in
-You can see Young spring greens, Goat cheese, Hericot verts and Mixed seasonal fruit here.
+You can see spring greens, Goat cheese, Hericot verts and Mixed seasonal fruit here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1246"></child>
+        <children><child nodeId="node-1080"></child>
         </children>
     </item>
-    <item nodeId="node-1246">
+    <item nodeId="node-1080">
         <command xml:space="preserve">take verts</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1247"></child>
+        <children><child nodeId="node-1081"></child>
         </children>
     </item>
-    <item nodeId="node-1247">
+    <item nodeId="node-1081">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Prep station
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1248"></child>
+        <children><child nodeId="node-1406"></child>
+            <child nodeId="node-1082"></child>
         </children>
     </item>
-    <item nodeId="node-1248">
+    <item nodeId="node-1082">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Hot station
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1249"></child>
+        <children><child nodeId="node-1083"></child>
         </children>
     </item>
-    <item nodeId="node-1249">
+    <item nodeId="node-1083">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Plating station
@@ -587,112 +937,214 @@ You can see Balsamic dressing, Walnuts, Whole cane sugar and a counter (on which
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1250"></child>
+        <children><child nodeId="node-1084"></child>
         </children>
     </item>
-    <item nodeId="node-1250">
+    <item nodeId="node-1084">
         <command xml:space="preserve">put verts on plate</command>
         <result xml:space="preserve">You put Hericot verts on the final plate.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1251"></child>
+        <children><child nodeId="node-1085"></child>
         </children>
     </item>
-    <item nodeId="node-1251">
+    <item nodeId="node-1085">
         <command xml:space="preserve">put ribeye on plate</command>
         <result xml:space="preserve">(Sous vide Ribeye on the final plate)
 You put Sous vide Ribeye on the final plate.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1252"></child>
+        <children><child nodeId="node-1086"></child>
         </children>
     </item>
-    <item nodeId="node-1252">
+    <item nodeId="node-1086">
         <command xml:space="preserve">put pomme on plate</command>
         <result xml:space="preserve">You put Pomme puree on the final plate.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1253"></child>
+        <children><child nodeId="node-1087"></child>
         </children>
     </item>
-    <item nodeId="node-1253">
+    <item nodeId="node-1087">
         <command xml:space="preserve">put sauce on plate</command>
         <result xml:space="preserve">You put Cognac butter sauce on the final plate.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1254"></child>
+        <children><child nodeId="node-1088"></child>
         </children>
     </item>
-    <item nodeId="node-1254">
+    <item nodeId="node-1088">
         <command xml:space="preserve">prep dinner</command>
         <result xml:space="preserve">This is not a correct combination for any of the special menu dishes. 
 You should try again.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1255"></child>
+        <children><child nodeId="node-1089"></child>
         </children>
     </item>
-    <item nodeId="node-1255">
+    <item nodeId="node-1089">
         <command xml:space="preserve">x plate</command>
         <result xml:space="preserve">On the final plate are Cognac butter sauce, Pomme puree, Sous vide Ribeye and Hericot verts.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1183">
-        <command xml:space="preserve">e</command>
+    <item nodeId="node-1406">
+        <command xml:space="preserve">d</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1184"></child>
+        <children><child nodeId="node-1407"></child>
         </children>
     </item>
-    <item nodeId="node-1184">
-        <command xml:space="preserve">w</command>
-        <result xml:space="preserve">
-Prep station
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1185"></child>
-        </children>
-    </item>
-    <item nodeId="node-1185">
+    <item nodeId="node-1407">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Hot station
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1186"></child>
+        <children><child nodeId="node-1408"></child>
         </children>
     </item>
-    <item nodeId="node-1186">
+    <item nodeId="node-1408">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Plating station
+You can see Balsamic dressing, Walnuts, Whole cane sugar and a counter (on which is a prep plate) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1409"></child>
+        </children>
+    </item>
+    <item nodeId="node-1409">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Pass
+You can see a Restaurant manager and a pickup table here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1410"></child>
+        </children>
+    </item>
+    <item nodeId="node-1410">
         <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Plating station
+You can see Balsamic dressing, Walnuts, Whole cane sugar and a counter (on which is a prep plate) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1411"></child>
+        </children>
+    </item>
+    <item nodeId="node-1411">
+        <command xml:space="preserve">put all on plate</command>
+        <result xml:space="preserve">Hericot verts: Done.
+Butter sauce: Done.
+Pomme puree: Done.
+Sous-vide Ribeye: Done.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1412"></child>
+        </children>
+    </item>
+    <item nodeId="node-1412">
+        <command xml:space="preserve">plate dinner</command>
+        <result xml:space="preserve">You put together Sous-vide Ribeye, Pomme puree, Butter sauce and Hericot verts.
+
+You now have a Sous vide Ribeye properly plated. Now take it to the pass!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1413"></child>
+        </children>
+    </item>
+    <item nodeId="node-1413">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Pass
+You can see a Restaurant manager and a pickup table here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1414"></child>
+        </children>
+    </item>
+    <item nodeId="node-1414">
+        <command xml:space="preserve">place dinner on table</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1415"></child>
+        </children>
+    </item>
+    <item nodeId="node-1415">
+        <command xml:space="preserve">put dinner on table</command>
+        <result xml:space="preserve">You put Sous vide Ribeye on the pickup table.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1090">
+        <command xml:space="preserve">e</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1187"></child>
+        <children><child nodeId="node-1091"></child>
         </children>
     </item>
-    <item nodeId="node-1187">
+    <item nodeId="node-1091">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Prep station
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1188"></child>
+        <children><child nodeId="node-1092"></child>
         </children>
     </item>
-    <item nodeId="node-1188">
+    <item nodeId="node-1092">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hot station
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1093"></child>
+        </children>
+    </item>
+    <item nodeId="node-1093">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1094"></child>
+        </children>
+    </item>
+    <item nodeId="node-1094">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Prep station
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1095"></child>
+        </children>
+    </item>
+    <item nodeId="node-1095">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Walk-in
@@ -700,39 +1152,39 @@ You can see Young spring greens, Goat cheese, Hericot verts and Mixed seasonal f
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1189"></child>
+        <children><child nodeId="node-1096"></child>
         </children>
     </item>
-    <item nodeId="node-1189">
+    <item nodeId="node-1096">
         <command xml:space="preserve">take verts</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1190"></child>
+        <children><child nodeId="node-1097"></child>
         </children>
     </item>
-    <item nodeId="node-1190">
+    <item nodeId="node-1097">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Prep station
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1191"></child>
+        <children><child nodeId="node-1098"></child>
         </children>
     </item>
-    <item nodeId="node-1191">
+    <item nodeId="node-1098">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Hot station
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1192"></child>
+        <children><child nodeId="node-1099"></child>
         </children>
     </item>
-    <item nodeId="node-1192">
+    <item nodeId="node-1099">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Plating station
@@ -740,20 +1192,20 @@ You can see Balsamic dressing, Walnuts, Whole cane sugar and a counter (on which
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1193"></child>
+        <children><child nodeId="node-1100"></child>
         </children>
     </item>
-    <item nodeId="node-1193">
+    <item nodeId="node-1100">
         <command xml:space="preserve">prep dinner</command>
         <result xml:space="preserve">This is not a correct combination for any of the spacial menu dishes. 
 You should try again.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1194"></child>
+        <children><child nodeId="node-1101"></child>
         </children>
     </item>
-    <item nodeId="node-1194">
+    <item nodeId="node-1101">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
   Hericot verts
@@ -763,38 +1215,38 @@ You should try again.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1195"></child>
+        <children><child nodeId="node-1102"></child>
         </children>
     </item>
-    <item nodeId="node-1195">
+    <item nodeId="node-1102">
         <command xml:space="preserve">prep</command>
         <result xml:space="preserve">This is not a correct combination for any of the spacial menu dishes. 
 You should try again.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1196"></child>
+        <children><child nodeId="node-1103"></child>
         </children>
     </item>
-    <item nodeId="node-1196">
+    <item nodeId="node-1103">
         <command xml:space="preserve">prep dinner on plate</command>
         <result xml:space="preserve">I only understood you as far as wanting to prep.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1197"></child>
+        <children><child nodeId="node-1104"></child>
         </children>
     </item>
-    <item nodeId="node-1197">
+    <item nodeId="node-1104">
         <command xml:space="preserve">place all on counter</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1198"></child>
+        <children><child nodeId="node-1105"></child>
         </children>
     </item>
-    <item nodeId="node-1198">
+    <item nodeId="node-1105">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
   Hericot verts
@@ -804,20 +1256,20 @@ You should try again.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1199"></child>
+        <children><child nodeId="node-1106"></child>
         </children>
     </item>
-    <item nodeId="node-1199">
+    <item nodeId="node-1106">
         <command xml:space="preserve">prep dinner</command>
         <result xml:space="preserve">This is not a correct combination for any of the spacial menu dishes. 
 You should try again.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1200"></child>
+        <children><child nodeId="node-1107"></child>
         </children>
     </item>
-    <item nodeId="node-1200">
+    <item nodeId="node-1107">
         <command xml:space="preserve">take all</command>
         <result xml:space="preserve">Balsamic dressing: Taken.
 Walnuts: Taken.
@@ -825,10 +1277,10 @@ Whole cane sugar: Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1201"></child>
+        <children><child nodeId="node-1108"></child>
         </children>
     </item>
-    <item nodeId="node-1201">
+    <item nodeId="node-1108">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 cold station
@@ -836,30 +1288,30 @@ You can see Roasted beets and Vanilla custard here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1202"></child>
+        <children><child nodeId="node-1109"></child>
         </children>
     </item>
-    <item nodeId="node-1202">
+    <item nodeId="node-1109">
         <command xml:space="preserve">take all</command>
         <result xml:space="preserve">Roasted beets: Taken.
 Vanilla custard: Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1203"></child>
+        <children><child nodeId="node-1110"></child>
         </children>
     </item>
-    <item nodeId="node-1203">
+    <item nodeId="node-1110">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Prep station
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1204"></child>
+        <children><child nodeId="node-1111"></child>
         </children>
     </item>
-    <item nodeId="node-1204">
+    <item nodeId="node-1111">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Walk-in
@@ -867,10 +1319,10 @@ You can see Young spring greens, Goat cheese and Mixed seasonal fruit here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1205"></child>
+        <children><child nodeId="node-1112"></child>
         </children>
     </item>
-    <item nodeId="node-1205">
+    <item nodeId="node-1112">
         <command xml:space="preserve">take all</command>
         <result xml:space="preserve">Young spring greens: Taken.
 Goat cheese: Taken.
@@ -878,30 +1330,30 @@ Mixed seasonal fruit: Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1206"></child>
+        <children><child nodeId="node-1113"></child>
         </children>
     </item>
-    <item nodeId="node-1206">
+    <item nodeId="node-1113">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Prep station
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1207"></child>
+        <children><child nodeId="node-1114"></child>
         </children>
     </item>
-    <item nodeId="node-1207">
+    <item nodeId="node-1114">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Hot station
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1208"></child>
+        <children><child nodeId="node-1115"></child>
         </children>
     </item>
-    <item nodeId="node-1208">
+    <item nodeId="node-1115">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
   Mixed seasonal fruit
@@ -919,10 +1371,10 @@ Hot station
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1209"></child>
+        <children><child nodeId="node-1116"></child>
         </children>
     </item>
-    <item nodeId="node-1209">
+    <item nodeId="node-1116">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Plating station
@@ -930,10 +1382,10 @@ You can see a counter (on which is a final plate) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1210"></child>
+        <children><child nodeId="node-1117"></child>
         </children>
     </item>
-    <item nodeId="node-1210">
+    <item nodeId="node-1117">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Pass
@@ -941,10 +1393,10 @@ You can see a Restaurant manager here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1211"></child>
+        <children><child nodeId="node-1118"></child>
         </children>
     </item>
-    <item nodeId="node-1211">
+    <item nodeId="node-1118">
         <command xml:space="preserve">ask manager about key</command>
         <result xml:space="preserve">"Excuse me, could I have the wine cellar key?", you ask. 
 
@@ -952,10 +1404,10 @@ You can see a Restaurant manager here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1212"></child>
+        <children><child nodeId="node-1119"></child>
         </children>
     </item>
-    <item nodeId="node-1212">
+    <item nodeId="node-1119">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Plating station
@@ -963,40 +1415,40 @@ You can see a counter (on which is a final plate) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1213"></child>
+        <children><child nodeId="node-1120"></child>
         </children>
     </item>
-    <item nodeId="node-1213">
+    <item nodeId="node-1120">
         <command xml:space="preserve">prep</command>
         <result xml:space="preserve">This is not a correct combination for any of the spacial menu dishes. 
 You should try again.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1214"></child>
+        <children><child nodeId="node-1121"></child>
         </children>
     </item>
-    <item nodeId="node-1214">
+    <item nodeId="node-1121">
         <command xml:space="preserve">prep app</command>
         <result xml:space="preserve">This is not a correct combination for any of the spacial menu dishes. 
 You should try again.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1215"></child>
+        <children><child nodeId="node-1122"></child>
         </children>
     </item>
-    <item nodeId="node-1215">
+    <item nodeId="node-1122">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Break room
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1216"></child>
+        <children><child nodeId="node-1123"></child>
         </children>
     </item>
-    <item nodeId="node-1216">
+    <item nodeId="node-1123">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Plating station
@@ -1004,114 +1456,114 @@ You can see a counter (on which is a final plate) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1217"></child>
+        <children><child nodeId="node-1124"></child>
         </children>
     </item>
-    <item nodeId="node-1217">
+    <item nodeId="node-1124">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 cold station
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1218"></child>
+        <children><child nodeId="node-1125"></child>
         </children>
     </item>
-    <item nodeId="node-1218">
+    <item nodeId="node-1125">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Prep station
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1219"></child>
+        <children><child nodeId="node-1126"></child>
         </children>
     </item>
-    <item nodeId="node-1219">
+    <item nodeId="node-1126">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Wine Cellar
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1220"></child>
+        <children><child nodeId="node-1127"></child>
         </children>
     </item>
-    <item nodeId="node-1220">
+    <item nodeId="node-1127">
         <command xml:space="preserve">unlock case</command>
         <result xml:space="preserve">What do you want to unlock Wine case with?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1221"></child>
+        <children><child nodeId="node-1128"></child>
         </children>
     </item>
-    <item nodeId="node-1221">
+    <item nodeId="node-1128">
         <command xml:space="preserve">key</command>
         <result xml:space="preserve">You unlock Wine case.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1222"></child>
+        <children><child nodeId="node-1129"></child>
         </children>
     </item>
-    <item nodeId="node-1222">
+    <item nodeId="node-1129">
         <command xml:space="preserve">open wine case</command>
         <result xml:space="preserve">You open Wine case, revealing Fine white wine, Fine red wine and Champagne.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1223"></child>
+        <children><child nodeId="node-1130"></child>
         </children>
     </item>
-    <item nodeId="node-1223">
+    <item nodeId="node-1130">
         <command xml:space="preserve">take red wine</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1224"></child>
+        <children><child nodeId="node-1131"></child>
         </children>
     </item>
-    <item nodeId="node-1224">
+    <item nodeId="node-1131">
         <command xml:space="preserve">take champagne</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1225"></child>
+        <children><child nodeId="node-1132"></child>
         </children>
     </item>
-    <item nodeId="node-1225">
+    <item nodeId="node-1132">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1226"></child>
+        <children><child nodeId="node-1133"></child>
         </children>
     </item>
-    <item nodeId="node-1226">
+    <item nodeId="node-1133">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Prep station
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1227"></child>
+        <children><child nodeId="node-1134"></child>
         </children>
     </item>
-    <item nodeId="node-1227">
+    <item nodeId="node-1134">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Hot station
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1228"></child>
+        <children><child nodeId="node-1135"></child>
         </children>
     </item>
-    <item nodeId="node-1228">
+    <item nodeId="node-1135">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Plating station
@@ -1119,65 +1571,65 @@ You can see a counter (on which is a final plate) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1229"></child>
+        <children><child nodeId="node-1136"></child>
         </children>
     </item>
-    <item nodeId="node-1229">
+    <item nodeId="node-1136">
         <command xml:space="preserve">plate app</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1230"></child>
+        <children><child nodeId="node-1137"></child>
         </children>
     </item>
-    <item nodeId="node-1230">
+    <item nodeId="node-1137">
         <command xml:space="preserve">prep app</command>
         <result xml:space="preserve">This is not a correct combination for any of the spacial menu dishes. 
 You should try again.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1231"></child>
+        <children><child nodeId="node-1138"></child>
         </children>
     </item>
-    <item nodeId="node-1231">
+    <item nodeId="node-1138">
         <command xml:space="preserve">put sauce on plate</command>
         <result xml:space="preserve">You put Cognac butter sauce on the final plate.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1232"></child>
+        <children><child nodeId="node-1139"></child>
         </children>
     </item>
-    <item nodeId="node-1232">
+    <item nodeId="node-1139">
         <command xml:space="preserve">put pomme on plate</command>
         <result xml:space="preserve">You put Pomme puree on the final plate.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1233"></child>
+        <children><child nodeId="node-1140"></child>
         </children>
     </item>
-    <item nodeId="node-1233">
+    <item nodeId="node-1140">
         <command xml:space="preserve">put verts on plate</command>
         <result xml:space="preserve">You put Hericot verts on the final plate.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1234"></child>
+        <children><child nodeId="node-1141"></child>
         </children>
     </item>
-    <item nodeId="node-1234">
+    <item nodeId="node-1141">
         <command xml:space="preserve">put rib eye on plate</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1235"></child>
+        <children><child nodeId="node-1142"></child>
         </children>
     </item>
-    <item nodeId="node-1235">
+    <item nodeId="node-1142">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
   Champagne
@@ -1195,39 +1647,39 @@ You should try again.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1236"></child>
+        <children><child nodeId="node-1143"></child>
         </children>
     </item>
-    <item nodeId="node-1236">
+    <item nodeId="node-1143">
         <command xml:space="preserve">put ribeye on plate</command>
         <result xml:space="preserve">(Sous vide Ribeye on the final plate)
 You put Sous vide Ribeye on the final plate.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1237"></child>
+        <children><child nodeId="node-1144"></child>
         </children>
     </item>
-    <item nodeId="node-1237">
+    <item nodeId="node-1144">
         <command xml:space="preserve">prep dinner</command>
         <result xml:space="preserve">This is not a correct combination for any of the spacial menu dishes. 
 You should try again.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1238"></child>
+        <children><child nodeId="node-1145"></child>
         </children>
     </item>
-    <item nodeId="node-1238">
+    <item nodeId="node-1145">
         <command xml:space="preserve">x plate</command>
         <result xml:space="preserve">On the final plate are Sous vide Ribeye, Hericot verts, Pomme puree and Cognac butter sauce.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1239"></child>
+        <children><child nodeId="node-1146"></child>
         </children>
     </item>
-    <item nodeId="node-1239">
+    <item nodeId="node-1146">
         <command xml:space="preserve">prep dinner</command>
         <result xml:space="preserve">This is not a correct combination for any of the spacial menu dishes. 
 You should try again.
@@ -1235,121 +1687,7 @@ You should try again.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1174">
-        <command xml:space="preserve">e</command>
-        <result xml:space="preserve">You can't go that way.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1175"></child>
-        </children>
-    </item>
-    <item nodeId="node-1175">
-        <command xml:space="preserve">w</command>
-        <result xml:space="preserve">
-Prep station
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1285"></child>
-            <child nodeId="node-1176"></child>
-        </children>
-    </item>
-    <item nodeId="node-1176">
-        <command xml:space="preserve">s</command>
-        <result xml:space="preserve">
-cold station
-You can see Roasted beets and Vanilla custard here.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1177"></child>
-        </children>
-    </item>
-    <item nodeId="node-1177">
-        <command xml:space="preserve">w</command>
-        <result xml:space="preserve">You can't go that way.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1178"></child>
-        </children>
-    </item>
-    <item nodeId="node-1178">
-        <command xml:space="preserve">e</command>
-        <result xml:space="preserve">
-Plating station
-You can see Balsamic dressing, Walnuts, Cognac butter sauce, Whole cane sugar and a counter (on which is a final plate) here.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-    </item>
-    <item nodeId="node-1285">
-        <command xml:space="preserve">n</command>
-        <result xml:space="preserve">
-Walk-in
-You can see Young spring greens, Goat cheese, Hericot verts and Mixed seasonal fruit here.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1286"></child>
-        </children>
-    </item>
-    <item nodeId="node-1286">
-        <command xml:space="preserve">take all</command>
-        <result xml:space="preserve">Young spring greens: Taken.
-Goat cheese: Taken.
-Hericot verts: Taken.
-Mixed seasonal fruit: Taken.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1287"></child>
-        </children>
-    </item>
-    <item nodeId="node-1287">
-        <command xml:space="preserve">s</command>
-        <result xml:space="preserve">
-Prep station
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1288"></child>
-        </children>
-    </item>
-    <item nodeId="node-1288">
-        <command xml:space="preserve">s</command>
-        <result xml:space="preserve">
-cold station
-You can see Roasted beets and Vanilla custard here.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1289"></child>
-        </children>
-    </item>
-    <item nodeId="node-1289">
-        <command xml:space="preserve">take all</command>
-        <result xml:space="preserve">Roasted beets: Taken.
-Vanilla custard: Taken.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1290"></child>
-        </children>
-    </item>
-    <item nodeId="node-1290">
-        <command xml:space="preserve">e</command>
-        <result xml:space="preserve">
-Plating station
-You can see Balsamic dressing, Walnuts, Cognac butter sauce, Whole cane sugar and a counter (on which is a prep plate) here.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1291"></child>
-        </children>
-    </item>
-    <item nodeId="node-1291">
+    <item nodeId="node-1147">
         <command xml:space="preserve">take all</command>
         <result xml:space="preserve">Balsamic dressing: Taken.
 Walnuts: Taken.
@@ -1358,10 +1696,174 @@ Whole cane sugar: Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1292"></child>
+        <children><child nodeId="node-1148"></child>
         </children>
     </item>
-    <item nodeId="node-1292">
+    <item nodeId="node-1148">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+cold station
+You can see Roasted beets and Vanilla custard here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1149"></child>
+        </children>
+    </item>
+    <item nodeId="node-1149">
+        <command xml:space="preserve">take all</command>
+        <result xml:space="preserve">Roasted beets: Taken.
+Vanilla custard: Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1150"></child>
+        </children>
+    </item>
+    <item nodeId="node-1150">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Prep station
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1151"></child>
+        </children>
+    </item>
+    <item nodeId="node-1151">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Walk-in
+You can see Young spring greens, Goat cheese, Hericot verts and Mixed seasonal fruit here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1152"></child>
+        </children>
+    </item>
+    <item nodeId="node-1152">
+        <command xml:space="preserve">take all</command>
+        <result xml:space="preserve">Young spring greens: Taken.
+Goat cheese: Taken.
+Hericot verts: Taken.
+Mixed seasonal fruit: Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1153"></child>
+        </children>
+    </item>
+    <item nodeId="node-1153">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Prep station
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1154"></child>
+        </children>
+    </item>
+    <item nodeId="node-1154">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Wine Cellar
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1155"></child>
+        </children>
+    </item>
+    <item nodeId="node-1155">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Prep station
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1156"></child>
+        </children>
+    </item>
+    <item nodeId="node-1156">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hot station
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1157"></child>
+        </children>
+    </item>
+    <item nodeId="node-1157">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Plating station
+You can see a counter (on which is a prep plate) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1158"></child>
+        </children>
+    </item>
+    <item nodeId="node-1158">
+        <command xml:space="preserve">put all on plate</command>
+        <result xml:space="preserve">Mixed seasonal fruit: Done.
+Hericot verts: Done.
+Goat cheese: Done.
+Young spring greens: Done.
+Vanilla custard: Done.
+Roasted beets: Done.
+Whole cane sugar: Done.
+Cognac butter sauce: Done.
+Walnuts: Done.
+Balsamic dressing: Done.
+Pomme puree: Done.
+Sous vide Ribeye: Done.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1159"></child>
+        </children>
+    </item>
+    <item nodeId="node-1159">
+        <command xml:space="preserve">prep</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1160"></child>
+        </children>
+    </item>
+    <item nodeId="node-1160">
+        <command xml:space="preserve">plate app</command>
+        <result xml:space="preserve">This is not a correct combination for any of the special menu dishes. 
+You should try again.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1161"></child>
+        </children>
+    </item>
+    <item nodeId="node-1161">
+        <command xml:space="preserve">take all</command>
+        <result xml:space="preserve">Sous vide Ribeye: Taken.
+Pomme puree: Taken.
+Balsamic dressing: Taken.
+Walnuts: Taken.
+Cognac butter sauce: Taken.
+Whole cane sugar: Taken.
+Roasted beets: Taken.
+Vanilla custard: Taken.
+Young spring greens: Taken.
+Goat cheese: Taken.
+Hericot verts: Taken.
+Mixed seasonal fruit: Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1162"></child>
+        </children>
+    </item>
+    <item nodeId="node-1162">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Pass
@@ -1369,10 +1871,782 @@ You can see a Restaurant manager here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1293"></child>
+        <children><child nodeId="node-1163"></child>
         </children>
     </item>
-    <item nodeId="node-1293">
+    <item nodeId="node-1163">
+        <command xml:space="preserve">ask manager for key</command>
+        <result xml:space="preserve">The Restaurant manager has better things to do.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1164"></child>
+        </children>
+    </item>
+    <item nodeId="node-1164">
+        <command xml:space="preserve">ask manager about cellar key</command>
+        <result xml:space="preserve">"Excuse me, could I have the wine cellar key?", you ask. 
+
+ "Here" he replies as he tosses me the key.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1165"></child>
+        </children>
+    </item>
+    <item nodeId="node-1165">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Plating station
+You can see a counter (on which is a prep plate) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1166"></child>
+        </children>
+    </item>
+    <item nodeId="node-1166">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Break room
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1167"></child>
+        </children>
+    </item>
+    <item nodeId="node-1167">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Plating station
+You can see a counter (on which is a prep plate) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1168"></child>
+        </children>
+    </item>
+    <item nodeId="node-1168">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+cold station
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1169"></child>
+        </children>
+    </item>
+    <item nodeId="node-1169">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1170"></child>
+        </children>
+    </item>
+    <item nodeId="node-1170">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Prep station
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1171"></child>
+        </children>
+    </item>
+    <item nodeId="node-1171">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Wine Cellar
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1172"></child>
+        </children>
+    </item>
+    <item nodeId="node-1172">
+        <command xml:space="preserve">unlock wine case</command>
+        <result xml:space="preserve">What do you want to unlock Wine case with?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1173"></child>
+        </children>
+    </item>
+    <item nodeId="node-1173">
+        <command xml:space="preserve">keey</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1174"></child>
+        </children>
+    </item>
+    <item nodeId="node-1174">
+        <command xml:space="preserve">key</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1175"></child>
+        </children>
+    </item>
+    <item nodeId="node-1175">
+        <command xml:space="preserve">unlock wine case</command>
+        <result xml:space="preserve">What do you want to unlock Wine case with?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1176"></child>
+        </children>
+    </item>
+    <item nodeId="node-1176">
+        <command xml:space="preserve">key</command>
+        <result xml:space="preserve">You unlock Wine case.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1177"></child>
+        </children>
+    </item>
+    <item nodeId="node-1177">
+        <command xml:space="preserve">open wine case</command>
+        <result xml:space="preserve">You open Wine case, revealing Fine white wine, Fine red wine and Champagne.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1178"></child>
+        </children>
+    </item>
+    <item nodeId="node-1178">
+        <command xml:space="preserve">take alll</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1179"></child>
+        </children>
+    </item>
+    <item nodeId="node-1179">
+        <command xml:space="preserve">take</command>
+        <result xml:space="preserve">What do you want to take?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1180"></child>
+        </children>
+    </item>
+    <item nodeId="node-1180">
+        <command xml:space="preserve">champagnr</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1181"></child>
+        </children>
+    </item>
+    <item nodeId="node-1181">
+        <command xml:space="preserve">take champagne</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1182"></child>
+        </children>
+    </item>
+    <item nodeId="node-1182">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Prep station
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1183"></child>
+        </children>
+    </item>
+    <item nodeId="node-1183">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hot station
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1184"></child>
+        </children>
+    </item>
+    <item nodeId="node-1184">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Plating station
+You can see a counter (on which is a prep plate) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1185"></child>
+        </children>
+    </item>
+    <item nodeId="node-1185">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Pass
+You can see a Restaurant manager here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1186"></child>
+        </children>
+    </item>
+    <item nodeId="node-1186">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Plating station
+You can see a counter (on which is a prep plate) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1187"></child>
+        </children>
+    </item>
+    <item nodeId="node-1187">
+        <command xml:space="preserve">put custard on plate</command>
+        <result xml:space="preserve">You put Vanilla custard on the prep plate.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1188"></child>
+        </children>
+    </item>
+    <item nodeId="node-1188">
+        <command xml:space="preserve">put sugar on plate</command>
+        <result xml:space="preserve">You put Whole cane sugar on the prep plate.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1189"></child>
+        </children>
+    </item>
+    <item nodeId="node-1189">
+        <command xml:space="preserve">put fruit on plate</command>
+        <result xml:space="preserve">You put Mixed seasonal fruit on the prep plate.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1190"></child>
+        </children>
+    </item>
+    <item nodeId="node-1190">
+        <command xml:space="preserve">plate dessert</command>
+        <result xml:space="preserve">This is not a correct combination for any of the special menu dishes. 
+You should try again.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1191"></child>
+        </children>
+    </item>
+    <item nodeId="node-1191">
+        <command xml:space="preserve">put champagne on plate</command>
+        <result xml:space="preserve">You put Champagne on the prep plate.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1192"></child>
+        </children>
+    </item>
+    <item nodeId="node-1192">
+        <command xml:space="preserve">x plate</command>
+        <result xml:space="preserve">On the prep plate are Champagne, Mixed seasonal fruit, Whole cane sugar and Vanilla custard.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1193"></child>
+        </children>
+    </item>
+    <item nodeId="node-1193">
+        <command xml:space="preserve">plate dessert</command>
+        <result xml:space="preserve">You put together Champagne, Mixed seasonal fruit, Whole cane sugar and Vanilla custard.
+
+You now have a dessert properly plated. Now take it to the pass!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1194"></child>
+        </children>
+    </item>
+    <item nodeId="node-1194">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  dessert
+  a Wine cellar key
+  Hericot verts
+  Goat cheese
+  Young spring greens
+  Roasted beets
+  Cognac butter sauce
+  Walnuts
+  Balsamic dressing
+  Pomme puree
+  Sous vide Ribeye
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1195"></child>
+        </children>
+    </item>
+    <item nodeId="node-1195">
+        <command xml:space="preserve">put verts on plate</command>
+        <result xml:space="preserve">You put Hericot verts on the prep plate.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1196"></child>
+        </children>
+    </item>
+    <item nodeId="node-1196">
+        <command xml:space="preserve">put sauce on plate</command>
+        <result xml:space="preserve">You put Cognac butter sauce on the prep plate.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1197"></child>
+        </children>
+    </item>
+    <item nodeId="node-1197">
+        <command xml:space="preserve">put pomme on plate</command>
+        <result xml:space="preserve">You put Pomme puree on the prep plate.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1198"></child>
+        </children>
+    </item>
+    <item nodeId="node-1198">
+        <command xml:space="preserve">put ribeye on plate</command>
+        <result xml:space="preserve">(Sous vide Ribeye on the prep plate)
+You put Sous vide Ribeye on the prep plate.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1199"></child>
+        </children>
+    </item>
+    <item nodeId="node-1199">
+        <command xml:space="preserve">plate dinner</command>
+        <result xml:space="preserve">This is not a correct combination for any of the special menu dishes. 
+You should try again.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1200"></child>
+        </children>
+    </item>
+    <item nodeId="node-1200">
+        <command xml:space="preserve">x plate</command>
+        <result xml:space="preserve">On the prep plate are Sous vide Ribeye, Pomme puree, Cognac butter sauce and Hericot verts.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1201"></child>
+        </children>
+    </item>
+    <item nodeId="node-1201">
+        <command xml:space="preserve">plate dinner</command>
+        <result xml:space="preserve">This is not a correct combination for any of the special menu dishes. 
+You should try again.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1202"></child>
+        </children>
+    </item>
+    <item nodeId="node-1202">
+        <command xml:space="preserve">plate dinner</command>
+        <result xml:space="preserve">This is not a correct combination for any of the special menu dishes. 
+You should try again.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1203"></child>
+        </children>
+    </item>
+    <item nodeId="node-1203">
+        <command xml:space="preserve">x plate</command>
+        <result xml:space="preserve">On the prep plate are Sous vide Ribeye, Pomme puree, Cognac butter sauce and Hericot verts.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1204"></child>
+        </children>
+    </item>
+    <item nodeId="node-1204">
+        <command xml:space="preserve">x plate</command>
+        <result xml:space="preserve">On the prep plate are Sous vide Ribeye, Pomme puree, Cognac butter sauce and Hericot verts.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1205"></child>
+        </children>
+    </item>
+    <item nodeId="node-1205">
+        <command xml:space="preserve">plate diner</command>
+        <result xml:space="preserve">I only understood you as far as wanting to plate.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1206"></child>
+        </children>
+    </item>
+    <item nodeId="node-1206">
+        <command xml:space="preserve">plate dinner</command>
+        <result xml:space="preserve">This is not a correct combination for any of the special menu dishes. 
+You should try again.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1207"></child>
+        </children>
+    </item>
+    <item nodeId="node-1207">
+        <command xml:space="preserve">x desert</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1208"></child>
+        </children>
+    </item>
+    <item nodeId="node-1208">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  dessert
+  a Wine cellar key
+  Goat cheese
+  Young spring greens
+  Roasted beets
+  Walnuts
+  Balsamic dressing
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1209"></child>
+        </children>
+    </item>
+    <item nodeId="node-1209">
+        <command xml:space="preserve">x dessert</command>
+        <result xml:space="preserve">You see nothing special about dessert.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1210"></child>
+        </children>
+    </item>
+    <item nodeId="node-1210">
+        <command xml:space="preserve">eat desset</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1211"></child>
+        </children>
+    </item>
+    <item nodeId="node-1211">
+        <command xml:space="preserve">eat dessert</command>
+        <result xml:space="preserve">You eat dessert. Not bad.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1212"></child>
+        </children>
+    </item>
+    <item nodeId="node-1212">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a Wine cellar key
+  Goat cheese
+  Young spring greens
+  Roasted beets
+  Walnuts
+  Balsamic dressing
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1213"></child>
+        </children>
+    </item>
+    <item nodeId="node-1213">
+        <command xml:space="preserve">undo</command>
+        <result xml:space="preserve">Plating station
+[Previous turn undone.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1214"></child>
+        </children>
+    </item>
+    <item nodeId="node-1214">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a Wine cellar key
+  Goat cheese
+  Young spring greens
+  Roasted beets
+  Walnuts
+  Balsamic dressing
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1215"></child>
+        </children>
+    </item>
+    <item nodeId="node-1215">
+        <command xml:space="preserve">undo</command>
+        <result xml:space="preserve">Plating station
+[Previous turn undone.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1216"></child>
+        </children>
+    </item>
+    <item nodeId="node-1216">
+        <command xml:space="preserve">undo</command>
+        <result xml:space="preserve">Plating station
+[Previous turn undone.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1217"></child>
+        </children>
+    </item>
+    <item nodeId="node-1217">
+        <command xml:space="preserve">undo</command>
+        <result xml:space="preserve">Plating station
+[Previous turn undone.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1218"></child>
+        </children>
+    </item>
+    <item nodeId="node-1218">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  dessert
+  a Wine cellar key
+  Goat cheese
+  Young spring greens
+  Roasted beets
+  Walnuts
+  Balsamic dressing
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1219"></child>
+        </children>
+    </item>
+    <item nodeId="node-1219">
+        <command xml:space="preserve">plate dinner</command>
+        <result xml:space="preserve">This is not a correct combination for any of the special menu dishes. 
+You should try again.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1220"></child>
+        </children>
+    </item>
+    <item nodeId="node-1220">
+        <command xml:space="preserve">x plate</command>
+        <result xml:space="preserve">On the prep plate are Sous vide Ribeye, Pomme puree, Cognac butter sauce and Hericot verts.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1221"></child>
+        </children>
+    </item>
+    <item nodeId="node-1221">
+        <command xml:space="preserve">x plate</command>
+        <result xml:space="preserve">On the prep plate are Sous vide Ribeye, Pomme puree, Cognac butter sauce and Hericot verts.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1222"></child>
+        </children>
+    </item>
+    <item nodeId="node-1222">
+        <command xml:space="preserve">plate dinner</command>
+        <result xml:space="preserve">This is not a correct combination for any of the special menu dishes. 
+You should try again.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1223">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Pass
+You can see a Restaurant manager and a pickup table here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1224"></child>
+        </children>
+    </item>
+    <item nodeId="node-1224">
+        <command xml:space="preserve">put on table</command>
+        <result xml:space="preserve">(first taking the pickup table)
+That's fixed in place.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1225"></child>
+        </children>
+    </item>
+    <item nodeId="node-1225">
+        <command xml:space="preserve">put pomme on table</command>
+        <result xml:space="preserve">You put Pomme puree on the pickup table.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1226">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1227"></child>
+        </children>
+    </item>
+    <item nodeId="node-1227">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Prep station
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1231"></child>
+            <child nodeId="node-1228"></child>
+        </children>
+    </item>
+    <item nodeId="node-1228">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+cold station
+You can see Roasted beets and Vanilla custard here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1229"></child>
+        </children>
+    </item>
+    <item nodeId="node-1229">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1230"></child>
+        </children>
+    </item>
+    <item nodeId="node-1230">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Plating station
+You can see Balsamic dressing, Walnuts, Cognac butter sauce, Whole cane sugar and a counter (on which is a final plate) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1231">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Walk-in
+You can see Young spring greens, Goat cheese, Hericot verts and Mixed seasonal fruit here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1232"></child>
+        </children>
+    </item>
+    <item nodeId="node-1232">
+        <command xml:space="preserve">take all</command>
+        <result xml:space="preserve">Young spring greens: Taken.
+Goat cheese: Taken.
+Hericot verts: Taken.
+Mixed seasonal fruit: Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1233"></child>
+        </children>
+    </item>
+    <item nodeId="node-1233">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Prep station
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1234"></child>
+        </children>
+    </item>
+    <item nodeId="node-1234">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+cold station
+You can see Roasted beets and Vanilla custard here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1235"></child>
+        </children>
+    </item>
+    <item nodeId="node-1235">
+        <command xml:space="preserve">take all</command>
+        <result xml:space="preserve">Roasted beets: Taken.
+Vanilla custard: Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1236"></child>
+        </children>
+    </item>
+    <item nodeId="node-1236">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Plating station
+You can see Balsamic dressing, Walnuts, Cognac butter sauce, Whole cane sugar and a counter (on which is a prep plate) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1237"></child>
+        </children>
+    </item>
+    <item nodeId="node-1237">
+        <command xml:space="preserve">take all</command>
+        <result xml:space="preserve">Balsamic dressing: Taken.
+Walnuts: Taken.
+Cognac butter sauce: Taken.
+Whole cane sugar: Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1238"></child>
+        </children>
+    </item>
+    <item nodeId="node-1238">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Pass
+You can see a Restaurant manager here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1239"></child>
+        </children>
+    </item>
+    <item nodeId="node-1239">
         <command xml:space="preserve">ask manager about key</command>
         <result xml:space="preserve">"Excuse me, could I have the wine cellar key?", you ask. 
 
@@ -1380,19 +2654,19 @@ You can see a Restaurant manager here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1294"></child>
+        <children><child nodeId="node-1240"></child>
         </children>
     </item>
-    <item nodeId="node-1294">
+    <item nodeId="node-1240">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1295"></child>
+        <children><child nodeId="node-1241"></child>
         </children>
     </item>
-    <item nodeId="node-1295">
+    <item nodeId="node-1241">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Plating station
@@ -1400,67 +2674,67 @@ You can see a counter (on which is a prep plate) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1296"></child>
+        <children><child nodeId="node-1242"></child>
         </children>
     </item>
-    <item nodeId="node-1296">
+    <item nodeId="node-1242">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 cold station
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1297"></child>
+        <children><child nodeId="node-1243"></child>
         </children>
     </item>
-    <item nodeId="node-1297">
+    <item nodeId="node-1243">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1298"></child>
+        <children><child nodeId="node-1244"></child>
         </children>
     </item>
-    <item nodeId="node-1298">
+    <item nodeId="node-1244">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Prep station
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1299"></child>
+        <children><child nodeId="node-1245"></child>
         </children>
     </item>
-    <item nodeId="node-1299">
+    <item nodeId="node-1245">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Wine Cellar
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1300"></child>
+        <children><child nodeId="node-1246"></child>
         </children>
     </item>
-    <item nodeId="node-1300">
+    <item nodeId="node-1246">
         <command xml:space="preserve">unlock case with key</command>
         <result xml:space="preserve">You unlock Wine case.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1301"></child>
+        <children><child nodeId="node-1247"></child>
         </children>
     </item>
-    <item nodeId="node-1301">
+    <item nodeId="node-1247">
         <command xml:space="preserve">open case</command>
         <result xml:space="preserve">You open Wine case, revealing Fine white wine, Fine red wine and Champagne.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1302"></child>
+        <children><child nodeId="node-1248"></child>
         </children>
     </item>
-    <item nodeId="node-1302">
+    <item nodeId="node-1248">
         <command xml:space="preserve">take all</command>
         <result xml:space="preserve">Fine white wine: Taken.
 Fine red wine: Taken.
@@ -1468,30 +2742,30 @@ Champagne: Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1303"></child>
+        <children><child nodeId="node-1249"></child>
         </children>
     </item>
-    <item nodeId="node-1303">
+    <item nodeId="node-1249">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Prep station
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1304"></child>
+        <children><child nodeId="node-1250"></child>
         </children>
     </item>
-    <item nodeId="node-1304">
+    <item nodeId="node-1250">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 cold station
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1305"></child>
+        <children><child nodeId="node-1251"></child>
         </children>
     </item>
-    <item nodeId="node-1305">
+    <item nodeId="node-1251">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Plating station
@@ -1499,29 +2773,29 @@ You can see a counter (on which is a prep plate) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1306"></child>
+        <children><child nodeId="node-1252"></child>
         </children>
     </item>
-    <item nodeId="node-1306">
+    <item nodeId="node-1252">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Break room
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1307"></child>
+        <children><child nodeId="node-1253"></child>
         </children>
     </item>
-    <item nodeId="node-1307">
+    <item nodeId="node-1253">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1308"></child>
+        <children><child nodeId="node-1254"></child>
         </children>
     </item>
-    <item nodeId="node-1308">
+    <item nodeId="node-1254">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Plating station
@@ -1529,10 +2803,10 @@ You can see a counter (on which is a prep plate) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1309"></child>
+        <children><child nodeId="node-1255"></child>
         </children>
     </item>
-    <item nodeId="node-1309">
+    <item nodeId="node-1255">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Pass
@@ -1540,10 +2814,10 @@ You can see a Restaurant manager here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1310"></child>
+        <children><child nodeId="node-1256"></child>
         </children>
     </item>
-    <item nodeId="node-1310">
+    <item nodeId="node-1256">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Plating station
@@ -1551,47 +2825,47 @@ You can see a counter (on which is a prep plate) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1311"></child>
+        <children><child nodeId="node-1257"></child>
         </children>
     </item>
-    <item nodeId="node-1311">
+    <item nodeId="node-1257">
         <command xml:space="preserve">prep</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1312"></child>
+        <children><child nodeId="node-1258"></child>
         </children>
     </item>
-    <item nodeId="node-1312">
+    <item nodeId="node-1258">
         <command xml:space="preserve">prep app</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1313"></child>
+        <children><child nodeId="node-1259"></child>
         </children>
     </item>
-    <item nodeId="node-1313">
+    <item nodeId="node-1259">
         <command xml:space="preserve">plat eapp</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1314"></child>
+        <children><child nodeId="node-1260"></child>
         </children>
     </item>
-    <item nodeId="node-1314">
+    <item nodeId="node-1260">
         <command xml:space="preserve">plate app</command>
         <result xml:space="preserve">This is not a correct combination for any of the special menu dishes. 
 You should try again.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1315"></child>
+        <children><child nodeId="node-1261"></child>
         </children>
     </item>
-    <item nodeId="node-1315">
+    <item nodeId="node-1261">
         <command xml:space="preserve">put all on counter</command>
         <result xml:space="preserve">Champagne: Done.
 Fine red wine: Done.
@@ -1612,20 +2886,20 @@ Sous vide Ribeye: Done.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1316"></child>
+        <children><child nodeId="node-1262"></child>
         </children>
     </item>
-    <item nodeId="node-1316">
+    <item nodeId="node-1262">
         <command xml:space="preserve">plate app</command>
         <result xml:space="preserve">This is not a correct combination for any of the special menu dishes. 
 You should try again.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1317"></child>
+        <children><child nodeId="node-1263"></child>
         </children>
     </item>
-    <item nodeId="node-1317">
+    <item nodeId="node-1263">
         <command xml:space="preserve">take all</command>
         <result xml:space="preserve">Sous vide Ribeye: Taken.
 Pomme puree: Taken.
@@ -1646,10 +2920,10 @@ Champagne: Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1318"></child>
+        <children><child nodeId="node-1264"></child>
         </children>
     </item>
-    <item nodeId="node-1318">
+    <item nodeId="node-1264">
         <command xml:space="preserve">put all on plate</command>
         <result xml:space="preserve">Champagne: Done.
 Fine red wine: Done.
@@ -1670,59 +2944,59 @@ Sous vide Ribeye: Done.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1319"></child>
+        <children><child nodeId="node-1265"></child>
         </children>
     </item>
-    <item nodeId="node-1319">
+    <item nodeId="node-1265">
         <command xml:space="preserve">x plate</command>
         <result xml:space="preserve">On the prep plate are Sous vide Ribeye, Pomme puree, Young spring greens, Goat cheese, Hericot verts, Mixed seasonal fruit, Roasted beets, Vanilla custard, Balsamic dressing, Walnuts, Cognac butter sauce, Whole cane sugar, a Wine cellar key, Fine white wine, Fine red wine and Champagne.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1320"></child>
+        <children><child nodeId="node-1266"></child>
         </children>
     </item>
-    <item nodeId="node-1320">
+    <item nodeId="node-1266">
         <command xml:space="preserve">plate app</command>
         <result xml:space="preserve">This is not a correct combination for any of the special menu dishes. 
 You should try again.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1321"></child>
+        <children><child nodeId="node-1267"></child>
         </children>
     </item>
-    <item nodeId="node-1321">
+    <item nodeId="node-1267">
         <command xml:space="preserve">plate dinner</command>
         <result xml:space="preserve">This is not a correct combination for any of the special menu dishes. 
 You should try again.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1322"></child>
+        <children><child nodeId="node-1268"></child>
         </children>
     </item>
-    <item nodeId="node-1322">
+    <item nodeId="node-1268">
         <command xml:space="preserve">plate</command>
         <result xml:space="preserve">This is not a correct combination for any of the special menu dishes. 
 You should try again.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1323"></child>
+        <children><child nodeId="node-1269"></child>
         </children>
     </item>
-    <item nodeId="node-1323">
+    <item nodeId="node-1269">
         <command xml:space="preserve">eat</command>
         <result xml:space="preserve">(the counter)
 That's plainly inedible.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1324"></child>
+        <children><child nodeId="node-1270"></child>
         </children>
     </item>
-    <item nodeId="node-1324">
+    <item nodeId="node-1270">
         <command xml:space="preserve">take all</command>
         <result xml:space="preserve">Sous vide Ribeye: Taken.
 Pomme puree: Taken.
@@ -1743,423 +3017,12 @@ Champagne: Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1325"></child>
-        </children>
-    </item>
-    <item nodeId="node-1325">
-        <command xml:space="preserve">eat</command>
-        <result xml:space="preserve">What do you want to eat?
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1326"></child>
-        </children>
-    </item>
-    <item nodeId="node-1326">
-        <command xml:space="preserve">sugar</command>
-        <result xml:space="preserve">That's plainly inedible.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-    </item>
-    <item nodeId="node-1047">
-        <command xml:space="preserve">s</command>
-        <result xml:space="preserve">
-Plating station
-You can see Balsamic dressing, Walnuts, Cognac butter sauce, Whole cane sugar and a counter (on which is a prep plate) here.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1075"></child>
-            <child nodeId="node-1048"></child>
-        </children>
-    </item>
-    <item nodeId="node-1048">
-        <command xml:space="preserve">s</command>
-        <result xml:space="preserve">
-Pass
-You can see a Restaurant manager here.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1073"></child>
-            <child nodeId="node-1263"></child>
-            <child nodeId="node-1162"></child>
-            <child nodeId="node-1137"></child>
-            <child nodeId="node-1147"></child>
-            <child nodeId="node-1270"></child>
-            <child nodeId="node-1143"></child>
-            <child nodeId="node-1071"></child>
-            <child nodeId="node-1066"></child>
-            <child nodeId="node-1128"></child>
-            <child nodeId="node-1056"></child>
-            <child nodeId="node-1053"></child>
-            <child nodeId="node-1049"></child>
-        </children>
-    </item>
-    <item nodeId="node-1049">
-        <command xml:space="preserve">x manager</command>
-        <result xml:space="preserve">A rather short french man in his late thirties. He is very tightly wound and he takes his job very seriously.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1050"></child>
-        </children>
-    </item>
-    <item nodeId="node-1050">
-        <command xml:space="preserve">talk to manager</command>
-        <result xml:space="preserve">"What do you want!?" he snapps 
-
- "If you need something ask for it."
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1052"></child>
-            <child nodeId="node-1051"></child>
-        </children>
-    </item>
-    <item nodeId="node-1051">
-        <command xml:space="preserve">ask manager for wine cellar key</command>
-        <result xml:space="preserve">The Restaurant manager has better things to do.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-    </item>
-    <item nodeId="node-1052">
-        <command xml:space="preserve">ask manager for cellar key</command>
-        <result xml:space="preserve">The Restaurant manager has better things to do.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-    </item>
-    <item nodeId="node-1053">
-        <command xml:space="preserve">x manageer</command>
-        <result xml:space="preserve">You can't see any such thing.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1054"></child>
-        </children>
-    </item>
-    <item nodeId="node-1054">
-        <command xml:space="preserve">x manager</command>
-        <result xml:space="preserve">You see nothing special about the Restaurant manager.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1055"></child>
-        </children>
-    </item>
-    <item nodeId="node-1055">
-        <command xml:space="preserve">talk to manager</command>
-        <result xml:space="preserve">You can't see any such thing.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-    </item>
-    <item nodeId="node-1056">
-        <command xml:space="preserve">talk to manager</command>
-        <result xml:space="preserve">"What do you want!?" he snapps 
-
- "If you need something ask for it."
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1057"></child>
-            <child nodeId="node-1169"></child>
-        </children>
-    </item>
-    <item nodeId="node-1169">
-        <command xml:space="preserve">ask manager about key</command>
-        <result xml:space="preserve">"Excuse me, could I have the wine cellar key?", you ask. 
-
- "Here" he replies as he tosses me the key.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1170"></child>
-        </children>
-    </item>
-    <item nodeId="node-1170">
-        <command xml:space="preserve">ask manager for food</command>
-        <result xml:space="preserve">You can't see any such thing.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1171"></child>
-        </children>
-    </item>
-    <item nodeId="node-1171">
-        <command xml:space="preserve">ask manager about</command>
-        <result xml:space="preserve">I didn't understand that sentence.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1172"></child>
-        </children>
-    </item>
-    <item nodeId="node-1172">
-        <command xml:space="preserve">ask manager about menu</command>
-        <result xml:space="preserve">"Hey, whats the special menu for today?" you ask. 
-
- "You should already know it" he snaps back as he reaches into his jacket pocket and hands me the menu. "Here."
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-    </item>
-    <item nodeId="node-1057">
-        <command xml:space="preserve">Talk to Manager</command>
-        <result xml:space="preserve">You can't see any such thing.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1058"></child>
-        </children>
-    </item>
-    <item nodeId="node-1058">
-        <command xml:space="preserve">ask manager</command>
-        <result xml:space="preserve">(for the Restaurant manager)
-(the Restaurant manager first taking the Restaurant manager)
-The Restaurant manager has better things to do.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1059"></child>
-        </children>
-    </item>
-    <item nodeId="node-1059">
-        <command xml:space="preserve">x Restaurant manager</command>
-        <result xml:space="preserve">You see nothing special about the Restaurant manager.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1060"></child>
-        </children>
-    </item>
-    <item nodeId="node-1060">
-        <command xml:space="preserve">take key</command>
-        <result xml:space="preserve">That seems to belong to the Restaurant manager.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1061"></child>
-        </children>
-    </item>
-    <item nodeId="node-1061">
-        <command xml:space="preserve">take maue</command>
-        <result xml:space="preserve">You can't see any such thing.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1062"></child>
-        </children>
-    </item>
-    <item nodeId="node-1062">
-        <command xml:space="preserve">steal key</command>
-        <result xml:space="preserve">That's not a verb I recognise.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1063"></child>
-        </children>
-    </item>
-    <item nodeId="node-1063">
-        <command xml:space="preserve">take key</command>
-        <result xml:space="preserve">That seems to belong to the Restaurant manager.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1064"></child>
-        </children>
-    </item>
-    <item nodeId="node-1064">
-        <command xml:space="preserve">ask manager about cellar key]</command>
-        <result xml:space="preserve">There is no reply.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1065"></child>
-        </children>
-    </item>
-    <item nodeId="node-1065">
-        <command xml:space="preserve">ask manager about cellar key</command>
-        <result xml:space="preserve">There is no reply.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-    </item>
-    <item nodeId="node-1128">
-        <command xml:space="preserve">s</command>
-        <result xml:space="preserve">You can't go that way.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1129"></child>
-            <child nodeId="node-1330"></child>
-        </children>
-    </item>
-    <item nodeId="node-1330">
-        <command xml:space="preserve">x table</command>
-        <result xml:space="preserve">You see nothing special about the pickup table.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-    </item>
-    <item nodeId="node-1129">
-        <command xml:space="preserve">ask manager for key</command>
-        <result xml:space="preserve">"excuse me, could I have the wine cellar key?" you ask. 
-
- "Here" he replies as he tosses me the key
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-    </item>
-    <item nodeId="node-1066">
-        <command xml:space="preserve">ask manager for key</command>
-        <result xml:space="preserve">The Restaurant manager has better things to do.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1133"></child>
-            <child nodeId="node-1067"></child>
-        </children>
-    </item>
-    <item nodeId="node-1067">
-        <command xml:space="preserve">ask manager about wine cellar key</command>
-        <result xml:space="preserve">There is no reply.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1068"></child>
-        </children>
-    </item>
-    <item nodeId="node-1068">
-        <command xml:space="preserve">ask Manager for key</command>
-        <result xml:space="preserve">The Restaurant manager has better things to do.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1069"></child>
-        </children>
-    </item>
-    <item nodeId="node-1069">
-        <command xml:space="preserve">talk to manager</command>
-        <result xml:space="preserve">You can't see any such thing.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1070"></child>
-        </children>
-    </item>
-    <item nodeId="node-1070">
-        <command xml:space="preserve">Talk to Manager</command>
-        <result xml:space="preserve">You can't see any such thing.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-    </item>
-    <item nodeId="node-1133">
-        <command xml:space="preserve">ask manager about key</command>
-        <result xml:space="preserve">"Excuse me, could I have the wine cellar key?", you ask. 
-
- "Here" he replies as he tosses me the key.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1134"></child>
-        </children>
-    </item>
-    <item nodeId="node-1134">
-        <command xml:space="preserve">ask manager about key</command>
-        <result xml:space="preserve">The manager seems angry and says "I already gave you the key".
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-    </item>
-    <item nodeId="node-1071">
-        <command xml:space="preserve">ask manager for cellar key</command>
-        <result xml:space="preserve">The Restaurant manager has better things to do.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1072"></child>
-        </children>
-    </item>
-    <item nodeId="node-1072">
-        <command xml:space="preserve">ask manager about key</command>
-        <result xml:space="preserve">"excuse me, could I have the wine cellar key?" you ask. 
-
- "Here" he replies as he tosses me the key
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-    </item>
-    <item nodeId="node-1143">
-        <command xml:space="preserve">ask manager about menu</command>
-        <result xml:space="preserve">"Hey, whats the special menu for today?" you ask. 
-
- "You should already know it" he snaps back as he reaches into his jacket pocket and hands me the menu. "Here."
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1144"></child>
-            <child nodeId="node-1156"></child>
-        </children>
-    </item>
-    <item nodeId="node-1156">
-        <command xml:space="preserve">i</command>
-        <result xml:space="preserve">You are carrying:
-  a Special Menu
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1157"></child>
-        </children>
-    </item>
-    <item nodeId="node-1157">
-        <command xml:space="preserve">x manu</command>
-        <result xml:space="preserve">You can't see any such thing.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1158"></child>
-        </children>
-    </item>
-    <item nodeId="node-1158">
-        <command xml:space="preserve">x manu</command>
-        <result xml:space="preserve">You can't see any such thing.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1159"></child>
-        </children>
-    </item>
-    <item nodeId="node-1159">
-        <command xml:space="preserve">x menu</command>
-        <result xml:space="preserve">You see nothing special about the Special Menu.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-    </item>
-    <item nodeId="node-1144">
-        <command xml:space="preserve">ask manager about menu</command>
-        <result xml:space="preserve">The manager seems angry and says "I already gave you the special menu now go do what your payed for".
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-    </item>
-    <item nodeId="node-1270">
-        <command xml:space="preserve">ask manager about key</command>
-        <result xml:space="preserve">"Excuse me, could I have the wine cellar key?", you ask. 
-
- "Here" he replies as he tosses me the key.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1271"></child>
         </children>
     </item>
     <item nodeId="node-1271">
-        <command xml:space="preserve">x key</command>
-        <result xml:space="preserve">You see nothing special about the Wine cellar key.
+        <command xml:space="preserve">eat</command>
+        <result xml:space="preserve">What do you want to eat?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -2167,40 +3030,50 @@ The Restaurant manager has better things to do.
         </children>
     </item>
     <item nodeId="node-1272">
-        <command xml:space="preserve">n</command>
-        <result xml:space="preserve">
-Plating station
-You can see Balsamic dressing, Walnuts, Cognac butter sauce, Whole cane sugar and a counter (on which is a final plate) here.
+        <command xml:space="preserve">sugar</command>
+        <result xml:space="preserve">That's plainly inedible.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1273"></child>
-        </children>
     </item>
     <item nodeId="node-1273">
-        <command xml:space="preserve">w</command>
+        <command xml:space="preserve">s</command>
         <result xml:space="preserve">
-cold station
-You can see Roasted beets and Vanilla custard here.
+Plating station
+You can see Balsamic dressing, Walnuts, Cognac butter sauce, Whole cane sugar and a counter (on which is a prep plate) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1274"></child>
+        <children><child nodeId="node-1345"></child>
+            <child nodeId="node-1274"></child>
         </children>
     </item>
     <item nodeId="node-1274">
-        <command xml:space="preserve">w</command>
-        <result xml:space="preserve">You can't go that way.
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Pass
+You can see a Restaurant manager here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1275"></child>
+        <children><child nodeId="node-1343"></child>
+            <child nodeId="node-1338"></child>
+            <child nodeId="node-1334"></child>
+            <child nodeId="node-1330"></child>
+            <child nodeId="node-1326"></child>
+            <child nodeId="node-1314"></child>
+            <child nodeId="node-1308"></child>
+            <child nodeId="node-1306"></child>
+            <child nodeId="node-1299"></child>
+            <child nodeId="node-1296"></child>
+            <child nodeId="node-1282"></child>
+            <child nodeId="node-1279"></child>
+            <child nodeId="node-1275"></child>
         </children>
     </item>
     <item nodeId="node-1275">
-        <command xml:space="preserve">n</command>
-        <result xml:space="preserve">
-Prep station
+        <command xml:space="preserve">x manager</command>
+        <result xml:space="preserve">A rather short french man in his late thirties. He is very tightly wound and he takes his job very seriously.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -2208,36 +3081,34 @@ Prep station
         </children>
     </item>
     <item nodeId="node-1276">
-        <command xml:space="preserve">w</command>
-        <result xml:space="preserve">
-Wine Cellar
+        <command xml:space="preserve">talk to manager</command>
+        <result xml:space="preserve">"What do you want!?" he snapps 
 
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1277"></child>
-        </children>
-    </item>
-    <item nodeId="node-1277">
-        <command xml:space="preserve">x case</command>
-        <result xml:space="preserve">A case made from wood and glass pannels. Inside are the best and mose expensive wines in the restaurant.
+ "If you need something ask for it."
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1278"></child>
+            <child nodeId="node-1277"></child>
         </children>
     </item>
-    <item nodeId="node-1278">
-        <command xml:space="preserve">unlock case with key</command>
-        <result xml:space="preserve">You unlock Wine case.
+    <item nodeId="node-1277">
+        <command xml:space="preserve">ask manager for wine cellar key</command>
+        <result xml:space="preserve">The Restaurant manager has better things to do.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1279"></child>
-        </children>
+    </item>
+    <item nodeId="node-1278">
+        <command xml:space="preserve">ask manager for cellar key</command>
+        <result xml:space="preserve">The Restaurant manager has better things to do.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1279">
-        <command xml:space="preserve">open case</command>
-        <result xml:space="preserve">You open Wine case, revealing Fine white wine, Fine red wine and Champagne.
+        <command xml:space="preserve">x manageer</command>
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -2245,8 +3116,8 @@ Wine Cellar
         </children>
     </item>
     <item nodeId="node-1280">
-        <command xml:space="preserve">take champagne</command>
-        <result xml:space="preserve">Taken.
+        <command xml:space="preserve">x manager</command>
+        <result xml:space="preserve">You see nothing special about the Restaurant manager.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -2254,31 +3125,72 @@ Wine Cellar
         </children>
     </item>
     <item nodeId="node-1281">
-        <command xml:space="preserve">x champagne</command>
-        <result xml:space="preserve">You see nothing special about Champagne.
+        <command xml:space="preserve">talk to manager</command>
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1147">
-        <command xml:space="preserve">ask manager about food</command>
-        <result xml:space="preserve">There is no reply.
+    <item nodeId="node-1282">
+        <command xml:space="preserve">talk to manager</command>
+        <result xml:space="preserve">"What do you want!?" he snapps 
+
+ "If you need something ask for it."
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1148"></child>
+        <children><child nodeId="node-1287"></child>
+            <child nodeId="node-1283"></child>
         </children>
     </item>
-    <item nodeId="node-1148">
-        <command xml:space="preserve">ask manager about food</command>
-        <result xml:space="preserve">There is no reply.
+    <item nodeId="node-1283">
+        <command xml:space="preserve">ask manager about key</command>
+        <result xml:space="preserve">"Excuse me, could I have the wine cellar key?", you ask. 
+
+ "Here" he replies as he tosses me the key.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1149"></child>
+        <children><child nodeId="node-1284"></child>
         </children>
     </item>
-    <item nodeId="node-1149">
+    <item nodeId="node-1284">
+        <command xml:space="preserve">ask manager for food</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1285"></child>
+        </children>
+    </item>
+    <item nodeId="node-1285">
+        <command xml:space="preserve">ask manager about</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1286"></child>
+        </children>
+    </item>
+    <item nodeId="node-1286">
+        <command xml:space="preserve">ask manager about menu</command>
+        <result xml:space="preserve">"Hey, whats the special menu for today?" you ask. 
+
+ "You should already know it" he snaps back as he reaches into his jacket pocket and hands me the menu. "Here."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1287">
+        <command xml:space="preserve">Talk to Manager</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1288"></child>
+        </children>
+    </item>
+    <item nodeId="node-1288">
         <command xml:space="preserve">ask manager</command>
         <result xml:space="preserve">(for the Restaurant manager)
 (the Restaurant manager first taking the Restaurant manager)
@@ -2286,10 +3198,372 @@ The Restaurant manager has better things to do.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1150"></child>
+        <children><child nodeId="node-1289"></child>
         </children>
     </item>
-    <item nodeId="node-1150">
+    <item nodeId="node-1289">
+        <command xml:space="preserve">x Restaurant manager</command>
+        <result xml:space="preserve">You see nothing special about the Restaurant manager.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1290"></child>
+        </children>
+    </item>
+    <item nodeId="node-1290">
+        <command xml:space="preserve">take key</command>
+        <result xml:space="preserve">That seems to belong to the Restaurant manager.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1291"></child>
+        </children>
+    </item>
+    <item nodeId="node-1291">
+        <command xml:space="preserve">take maue</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1292"></child>
+        </children>
+    </item>
+    <item nodeId="node-1292">
+        <command xml:space="preserve">steal key</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1293"></child>
+        </children>
+    </item>
+    <item nodeId="node-1293">
+        <command xml:space="preserve">take key</command>
+        <result xml:space="preserve">That seems to belong to the Restaurant manager.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1294"></child>
+        </children>
+    </item>
+    <item nodeId="node-1294">
+        <command xml:space="preserve">ask manager about cellar key]</command>
+        <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1295"></child>
+        </children>
+    </item>
+    <item nodeId="node-1295">
+        <command xml:space="preserve">ask manager about cellar key</command>
+        <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1296">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1298"></child>
+            <child nodeId="node-1297"></child>
+        </children>
+    </item>
+    <item nodeId="node-1297">
+        <command xml:space="preserve">x table</command>
+        <result xml:space="preserve">You see nothing special about the pickup table.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1298">
+        <command xml:space="preserve">ask manager for key</command>
+        <result xml:space="preserve">"excuse me, could I have the wine cellar key?" you ask. 
+
+ "Here" he replies as he tosses me the key
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1299">
+        <command xml:space="preserve">ask manager for key</command>
+        <result xml:space="preserve">The Restaurant manager has better things to do.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1304"></child>
+            <child nodeId="node-1300"></child>
+        </children>
+    </item>
+    <item nodeId="node-1300">
+        <command xml:space="preserve">ask manager about wine cellar key</command>
+        <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1301"></child>
+        </children>
+    </item>
+    <item nodeId="node-1301">
+        <command xml:space="preserve">ask Manager for key</command>
+        <result xml:space="preserve">The Restaurant manager has better things to do.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1302"></child>
+        </children>
+    </item>
+    <item nodeId="node-1302">
+        <command xml:space="preserve">talk to manager</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1303"></child>
+        </children>
+    </item>
+    <item nodeId="node-1303">
+        <command xml:space="preserve">Talk to Manager</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1304">
+        <command xml:space="preserve">ask manager about key</command>
+        <result xml:space="preserve">"Excuse me, could I have the wine cellar key?", you ask. 
+
+ "Here" he replies as he tosses me the key.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1305"></child>
+        </children>
+    </item>
+    <item nodeId="node-1305">
+        <command xml:space="preserve">ask manager about key</command>
+        <result xml:space="preserve">The manager seems angry and says "I already gave you the key".
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1306">
+        <command xml:space="preserve">ask manager for cellar key</command>
+        <result xml:space="preserve">The Restaurant manager has better things to do.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1307"></child>
+        </children>
+    </item>
+    <item nodeId="node-1307">
+        <command xml:space="preserve">ask manager about key</command>
+        <result xml:space="preserve">"excuse me, could I have the wine cellar key?" you ask. 
+
+ "Here" he replies as he tosses me the key
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1308">
+        <command xml:space="preserve">ask manager about menu</command>
+        <result xml:space="preserve">"Hey, whats the special menu for today?" you ask. 
+
+ "You should already know it" he snaps back as he reaches into his jacket pocket and hands me the menu. "Here."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1313"></child>
+            <child nodeId="node-1309"></child>
+        </children>
+    </item>
+    <item nodeId="node-1309">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a Special Menu
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1310"></child>
+        </children>
+    </item>
+    <item nodeId="node-1310">
+        <command xml:space="preserve">x manu</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1311"></child>
+        </children>
+    </item>
+    <item nodeId="node-1311">
+        <command xml:space="preserve">x manu</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1312"></child>
+        </children>
+    </item>
+    <item nodeId="node-1312">
+        <command xml:space="preserve">x menu</command>
+        <result xml:space="preserve">You see nothing special about the Special Menu.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1313">
+        <command xml:space="preserve">ask manager about menu</command>
+        <result xml:space="preserve">The manager seems angry and says "I already gave you the special menu now go do what your payed for".
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1314">
+        <command xml:space="preserve">ask manager about key</command>
+        <result xml:space="preserve">"Excuse me, could I have the wine cellar key?", you ask. 
+
+ "Here" he replies as he tosses me the key.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1315"></child>
+        </children>
+    </item>
+    <item nodeId="node-1315">
+        <command xml:space="preserve">x key</command>
+        <result xml:space="preserve">You see nothing special about the Wine cellar key.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1316"></child>
+        </children>
+    </item>
+    <item nodeId="node-1316">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Plating station
+You can see Balsamic dressing, Walnuts, Cognac butter sauce, Whole cane sugar and a counter (on which is a final plate) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1317"></child>
+        </children>
+    </item>
+    <item nodeId="node-1317">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+cold station
+You can see Roasted beets and Vanilla custard here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1318"></child>
+        </children>
+    </item>
+    <item nodeId="node-1318">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1319"></child>
+        </children>
+    </item>
+    <item nodeId="node-1319">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Prep station
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1320"></child>
+        </children>
+    </item>
+    <item nodeId="node-1320">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Wine Cellar
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1321"></child>
+        </children>
+    </item>
+    <item nodeId="node-1321">
+        <command xml:space="preserve">x case</command>
+        <result xml:space="preserve">A case made from wood and glass pannels. Inside are the best and mose expensive wines in the restaurant.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1322"></child>
+        </children>
+    </item>
+    <item nodeId="node-1322">
+        <command xml:space="preserve">unlock case with key</command>
+        <result xml:space="preserve">You unlock Wine case.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1323"></child>
+        </children>
+    </item>
+    <item nodeId="node-1323">
+        <command xml:space="preserve">open case</command>
+        <result xml:space="preserve">You open Wine case, revealing Fine white wine, Fine red wine and Champagne.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1324"></child>
+        </children>
+    </item>
+    <item nodeId="node-1324">
+        <command xml:space="preserve">take champagne</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1325"></child>
+        </children>
+    </item>
+    <item nodeId="node-1325">
+        <command xml:space="preserve">x champagne</command>
+        <result xml:space="preserve">You see nothing special about Champagne.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1326">
+        <command xml:space="preserve">ask manager about food</command>
+        <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1327"></child>
+        </children>
+    </item>
+    <item nodeId="node-1327">
+        <command xml:space="preserve">ask manager about food</command>
+        <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1328"></child>
+        </children>
+    </item>
+    <item nodeId="node-1328">
+        <command xml:space="preserve">ask manager</command>
+        <result xml:space="preserve">(for the Restaurant manager)
+(the Restaurant manager first taking the Restaurant manager)
+The Restaurant manager has better things to do.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1329"></child>
+        </children>
+    </item>
+    <item nodeId="node-1329">
         <command xml:space="preserve">ask manager about key</command>
         <result xml:space="preserve">"Excuse me, could I have the wine cellar key?", you ask. 
 
@@ -2298,7 +3572,7 @@ The Restaurant manager has better things to do.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1137">
+    <item nodeId="node-1330">
         <command xml:space="preserve">ask manager about cellar key</command>
         <result xml:space="preserve">"Excuse me, could I have the wine cellar key?", you ask. 
 
@@ -2306,45 +3580,45 @@ The Restaurant manager has better things to do.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1138"></child>
+        <children><child nodeId="node-1331"></child>
         </children>
     </item>
-    <item nodeId="node-1138">
+    <item nodeId="node-1331">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
   a Wine cellar key
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1139"></child>
+        <children><child nodeId="node-1332"></child>
         </children>
     </item>
-    <item nodeId="node-1139">
+    <item nodeId="node-1332">
         <command xml:space="preserve">ask manager about special menu</command>
         <result xml:space="preserve">There is no reply.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1140"></child>
+        <children><child nodeId="node-1333"></child>
         </children>
     </item>
-    <item nodeId="node-1140">
+    <item nodeId="node-1333">
         <command xml:space="preserve">x manager</command>
         <result xml:space="preserve">A rather short french man in his late thirties. He is very tightly wound and he takes his job very seriously.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1162">
+    <item nodeId="node-1334">
         <command xml:space="preserve">ask about menu</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1163"></child>
+        <children><child nodeId="node-1335"></child>
         </children>
     </item>
-    <item nodeId="node-1163">
+    <item nodeId="node-1335">
         <command xml:space="preserve">ask manager about menu</command>
         <result xml:space="preserve">"Hey, whats the special menu for today?" you ask. 
 
@@ -2352,35 +3626,35 @@ The Restaurant manager has better things to do.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1164"></child>
+        <children><child nodeId="node-1336"></child>
         </children>
     </item>
-    <item nodeId="node-1164">
+    <item nodeId="node-1336">
         <command xml:space="preserve">x manu</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1165"></child>
+        <children><child nodeId="node-1337"></child>
         </children>
     </item>
-    <item nodeId="node-1165">
+    <item nodeId="node-1337">
         <command xml:space="preserve">x menu</command>
         <result xml:space="preserve">Printed in a small font it reads: App is a roasted beet salad. Dinner is a ribeye steak. Dessert is a creme brulee. The first two dishes will be served with a fine red wine and dessert will be served with champagne.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1263">
+    <item nodeId="node-1338">
         <command xml:space="preserve">aks manager about key</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1264"></child>
+        <children><child nodeId="node-1339"></child>
         </children>
     </item>
-    <item nodeId="node-1264">
+    <item nodeId="node-1339">
         <command xml:space="preserve">ask manager about key</command>
         <result xml:space="preserve">"Excuse me, could I have the wine cellar key?", you ask. 
 
@@ -2388,10 +3662,10 @@ The Restaurant manager has better things to do.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1265"></child>
+        <children><child nodeId="node-1340"></child>
         </children>
     </item>
-    <item nodeId="node-1265">
+    <item nodeId="node-1340">
         <command xml:space="preserve">ask manager about menu</command>
         <result xml:space="preserve">"Hey, whats the special menu for today?" you ask. 
 
@@ -2399,10 +3673,10 @@ The Restaurant manager has better things to do.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1266"></child>
+        <children><child nodeId="node-1341"></child>
         </children>
     </item>
-    <item nodeId="node-1266">
+    <item nodeId="node-1341">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
   a Special Menu
@@ -2410,33 +3684,33 @@ The Restaurant manager has better things to do.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1267"></child>
+        <children><child nodeId="node-1342"></child>
         </children>
     </item>
-    <item nodeId="node-1267">
+    <item nodeId="node-1342">
         <command xml:space="preserve">x key</command>
         <result xml:space="preserve">A case made from wood and glass pannels. Inside are the best and mose expensive wines in the restaurant.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1073">
+    <item nodeId="node-1343">
         <command xml:space="preserve">Converse with Manager</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1074"></child>
+        <children><child nodeId="node-1344"></child>
         </children>
     </item>
-    <item nodeId="node-1074">
+    <item nodeId="node-1344">
         <command xml:space="preserve">x manager</command>
         <result xml:space="preserve">You see nothing special about the Restaurant manager.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1075">
+    <item nodeId="node-1345">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Plating station
@@ -2444,10 +3718,10 @@ You can see Balsamic dressing, Walnuts, Cognac butter sauce and Whole cane sugar
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1076"></child>
+        <children><child nodeId="node-1346"></child>
         </children>
     </item>
-    <item nodeId="node-1076">
+    <item nodeId="node-1346">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Pass
@@ -2455,10 +3729,10 @@ You can see a Restaurant manager here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1077"></child>
+        <children><child nodeId="node-1347"></child>
         </children>
     </item>
-    <item nodeId="node-1077">
+    <item nodeId="node-1347">
         <command xml:space="preserve">talk to manager</command>
         <result xml:space="preserve">"What do you want!?" he snapps 
 
@@ -2466,20 +3740,20 @@ You can see a Restaurant manager here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1078"></child>
+        <children><child nodeId="node-1348"></child>
         </children>
     </item>
-    <item nodeId="node-1078">
+    <item nodeId="node-1348">
         <command xml:space="preserve">ask manager for key</command>
         <result xml:space="preserve">"excuse me, could I have the wine cellar key?" you ask. 
 
  "Here" he replies as he tosses me the key
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1079"></child>
+        <children><child nodeId="node-1349"></child>
         </children>
     </item>
-    <item nodeId="node-1079">
+    <item nodeId="node-1349">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
   a Wine cellar key
@@ -2487,7 +3761,7 @@ You can see a Restaurant manager here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1260">
+    <item nodeId="node-1350">
         <command xml:space="preserve">plate app</command>
         <result xml:space="preserve">This is not a correct combination for any of the special menu dishes. 
 You should try again.
@@ -2495,17 +3769,17 @@ You should try again.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1080">
+    <item nodeId="node-1351">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1111"></child>
-            <child nodeId="node-1081"></child>
+        <children><child nodeId="node-1382"></child>
+            <child nodeId="node-1352"></child>
         </children>
     </item>
-    <item nodeId="node-1081">
+    <item nodeId="node-1352">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Plating station
@@ -2513,19 +3787,19 @@ You can see Balsamic dressing, Walnuts, Cognac butter sauce and Whole cane sugar
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1084"></child>
-            <child nodeId="node-1083"></child>
-            <child nodeId="node-1082"></child>
+        <children><child nodeId="node-1355"></child>
+            <child nodeId="node-1354"></child>
+            <child nodeId="node-1353"></child>
         </children>
     </item>
-    <item nodeId="node-1082">
+    <item nodeId="node-1353">
         <command xml:space="preserve">x beet salad</command>
         <result xml:space="preserve">Roasted beet salad: ROASTED BEETS tossed with youg SPRING GREENS topped with a BALSAMIC dressing, toasted WALNUTS and GOAT CHEESE.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1083">
+    <item nodeId="node-1354">
         <command xml:space="preserve">take</command>
         <result xml:space="preserve">(the Beet Salad description)
 That's hardly portable.
@@ -2533,7 +3807,7 @@ That's hardly portable.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1084">
+    <item nodeId="node-1355">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Pass
@@ -2541,19 +3815,19 @@ You can see a Restaurant manager here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1088"></child>
-            <child nodeId="node-1086"></child>
-            <child nodeId="node-1085"></child>
+        <children><child nodeId="node-1359"></child>
+            <child nodeId="node-1357"></child>
+            <child nodeId="node-1356"></child>
         </children>
     </item>
-    <item nodeId="node-1085">
+    <item nodeId="node-1356">
         <command xml:space="preserve">x manager</command>
         <result xml:space="preserve">A rather short french man in his late thirties. He is very tightly wound and he takes his job very seriously.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1086">
+    <item nodeId="node-1357">
         <command xml:space="preserve">talk to manager</command>
         <result xml:space="preserve">"What do you want!?" he snapps 
 
@@ -2561,82 +3835,82 @@ You can see a Restaurant manager here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1087"></child>
+        <children><child nodeId="node-1358"></child>
         </children>
     </item>
-    <item nodeId="node-1087">
+    <item nodeId="node-1358">
         <command xml:space="preserve">ask for key</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1088">
+    <item nodeId="node-1359">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1103"></child>
-            <child nodeId="node-1090"></child>
-            <child nodeId="node-1089"></child>
+        <children><child nodeId="node-1374"></child>
+            <child nodeId="node-1361"></child>
+            <child nodeId="node-1360"></child>
         </children>
     </item>
-    <item nodeId="node-1089">
+    <item nodeId="node-1360">
         <command xml:space="preserve">talk to manager</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1090">
+    <item nodeId="node-1361">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1091"></child>
+        <children><child nodeId="node-1362"></child>
         </children>
     </item>
-    <item nodeId="node-1091">
+    <item nodeId="node-1362">
         <command xml:space="preserve">ask manager for key</command>
         <result xml:space="preserve">"excuse me, could I have the wine cellar key?" you ask. 
 
  "Here" he replies as he tosses me the key
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1092"></child>
+        <children><child nodeId="node-1363"></child>
         </children>
     </item>
-    <item nodeId="node-1092">
+    <item nodeId="node-1363">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
   a Wine cellar key
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1093"></child>
+        <children><child nodeId="node-1364"></child>
         </children>
     </item>
-    <item nodeId="node-1093">
+    <item nodeId="node-1364">
         <command xml:space="preserve"></command>
         <result xml:space="preserve">I beg your pardon?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1094"></child>
+        <children><child nodeId="node-1365"></child>
         </children>
     </item>
-    <item nodeId="node-1094">
+    <item nodeId="node-1365">
         <command xml:space="preserve"></command>
         <result xml:space="preserve">I beg your pardon?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1095"></child>
+        <children><child nodeId="node-1366"></child>
         </children>
     </item>
-    <item nodeId="node-1095">
+    <item nodeId="node-1366">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Plating station
@@ -2644,10 +3918,10 @@ You can see Balsamic dressing, Walnuts, Cognac butter sauce and Whole cane sugar
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1096"></child>
+        <children><child nodeId="node-1367"></child>
         </children>
     </item>
-    <item nodeId="node-1096">
+    <item nodeId="node-1367">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Hot station
@@ -2655,20 +3929,20 @@ You can see Sous vide Ribeye and Pomme puree here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1097"></child>
+        <children><child nodeId="node-1368"></child>
         </children>
     </item>
-    <item nodeId="node-1097">
+    <item nodeId="node-1368">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Prep station
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1098"></child>
+        <children><child nodeId="node-1369"></child>
         </children>
     </item>
-    <item nodeId="node-1098">
+    <item nodeId="node-1369">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 cold station
@@ -2676,65 +3950,65 @@ You can see Roasted beets and Vanilla custard here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1099"></child>
+        <children><child nodeId="node-1370"></child>
         </children>
     </item>
-    <item nodeId="node-1099">
+    <item nodeId="node-1370">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1100"></child>
+        <children><child nodeId="node-1371"></child>
         </children>
     </item>
-    <item nodeId="node-1100">
+    <item nodeId="node-1371">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Prep station
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1101"></child>
+        <children><child nodeId="node-1372"></child>
         </children>
     </item>
-    <item nodeId="node-1101">
+    <item nodeId="node-1372">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Wiine Cellar
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1102"></child>
+        <children><child nodeId="node-1373"></child>
         </children>
     </item>
-    <item nodeId="node-1102">
+    <item nodeId="node-1373">
         <command xml:space="preserve">x wine case</command>
         <result xml:space="preserve">I only understood you as far as wanting to examine the Wine cellar key.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1103">
+    <item nodeId="node-1374">
         <command xml:space="preserve">ask for key</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1104"></child>
+        <children><child nodeId="node-1375"></child>
         </children>
     </item>
-    <item nodeId="node-1104">
+    <item nodeId="node-1375">
         <command xml:space="preserve">ask manager for key</command>
         <result xml:space="preserve">"excuse me, could I have the wine cellar key?" you ask. 
 
  "Here" he replies as he tosses me the key
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1105"></child>
+        <children><child nodeId="node-1376"></child>
         </children>
     </item>
-    <item nodeId="node-1105">
+    <item nodeId="node-1376">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Plating station
@@ -2742,10 +4016,10 @@ You can see Balsamic dressing, Walnuts, Cognac butter sauce and Whole cane sugar
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1106"></child>
+        <children><child nodeId="node-1377"></child>
         </children>
     </item>
-    <item nodeId="node-1106">
+    <item nodeId="node-1377">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Hot station
@@ -2753,55 +4027,55 @@ You can see Sous vide Ribeye and Pomme puree here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1107"></child>
+        <children><child nodeId="node-1378"></child>
         </children>
     </item>
-    <item nodeId="node-1107">
+    <item nodeId="node-1378">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Prep station
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1108"></child>
+        <children><child nodeId="node-1379"></child>
         </children>
     </item>
-    <item nodeId="node-1108">
+    <item nodeId="node-1379">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Wiine Cellar
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1109"></child>
+        <children><child nodeId="node-1380"></child>
         </children>
     </item>
-    <item nodeId="node-1109">
+    <item nodeId="node-1380">
         <command xml:space="preserve">x wine case</command>
         <result xml:space="preserve">I only understood you as far as wanting to examine the Wine cellar key.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1110"></child>
+        <children><child nodeId="node-1381"></child>
         </children>
     </item>
-    <item nodeId="node-1110">
+    <item nodeId="node-1381">
         <command xml:space="preserve">open wine case</command>
         <result xml:space="preserve">I only understood you as far as wanting to open the Wine cellar key.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1111">
+    <item nodeId="node-1382">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1112"></child>
+        <children><child nodeId="node-1383"></child>
         </children>
     </item>
-    <item nodeId="node-1112">
+    <item nodeId="node-1383">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Plating station
@@ -2809,10 +4083,10 @@ You can see Balsamic dressing, Walnuts, Cognac butter sauce and Whole cane sugar
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1113"></child>
+        <children><child nodeId="node-1384"></child>
         </children>
     </item>
-    <item nodeId="node-1113">
+    <item nodeId="node-1384">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Pass
@@ -2820,35 +4094,35 @@ You can see a Restaurant manager here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1114"></child>
+        <children><child nodeId="node-1385"></child>
         </children>
     </item>
-    <item nodeId="node-1114">
+    <item nodeId="node-1385">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1115"></child>
+        <children><child nodeId="node-1386"></child>
         </children>
     </item>
-    <item nodeId="node-1115">
+    <item nodeId="node-1386">
         <command xml:space="preserve">ask manager for cellar key</command>
         <result xml:space="preserve">The Restaurant manager has better things to do.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1116">
+    <item nodeId="node-1387">
         <command xml:space="preserve"></command>
         <result xml:space="preserve">I beg your pardon?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1117"></child>
+        <children><child nodeId="node-1388"></child>
         </children>
     </item>
-    <item nodeId="node-1117">
+    <item nodeId="node-1388">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Hot station
@@ -2856,10 +4130,10 @@ You can see Sous vide Ribeye and Pomme puree here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1118"></child>
+        <children><child nodeId="node-1389"></child>
         </children>
     </item>
-    <item nodeId="node-1118">
+    <item nodeId="node-1389">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Plating station
@@ -2867,10 +4141,10 @@ You can see Balsamic dressing, Walnuts, Cognac butter sauce and Whole cane sugar
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1119"></child>
+        <children><child nodeId="node-1390"></child>
         </children>
     </item>
-    <item nodeId="node-1119">
+    <item nodeId="node-1390">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Pass
@@ -2878,35 +4152,35 @@ You can see a Restaurant manager here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1120"></child>
+        <children><child nodeId="node-1391"></child>
         </children>
     </item>
-    <item nodeId="node-1120">
+    <item nodeId="node-1391">
         <command xml:space="preserve"></command>
         <result xml:space="preserve">I beg your pardon?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1121"></child>
+        <children><child nodeId="node-1392"></child>
         </children>
     </item>
-    <item nodeId="node-1121">
+    <item nodeId="node-1392">
         <command xml:space="preserve">talk to manager</command>
         <result xml:space="preserve">&gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1122"></child>
+        <children><child nodeId="node-1393"></child>
         </children>
     </item>
-    <item nodeId="node-1122">
+    <item nodeId="node-1393">
         <command xml:space="preserve"></command>
         <result xml:space="preserve">I beg your pardon?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1123"></child>
+        <children><child nodeId="node-1394"></child>
         </children>
     </item>
-    <item nodeId="node-1123">
+    <item nodeId="node-1394">
         <command xml:space="preserve">talk to manager</command>
         <result xml:space="preserve">&gt;</result>
         <commentary xml:space="preserve"></commentary>
