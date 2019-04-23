@@ -22,7 +22,7 @@ placeholder [IFID] = "9391988B-F3A1-4195-BB5B-2C86486D25AD"
 placeholder [RELEASE] = "1"
 placeholder [YEAR] = "2019"
 placeholder [TITLE] = "Dinner Service"
-placeholder [AUTHOR] = "jtoyama19"
+placeholder [AUTHOR] = "Jalen Toyama"
 placeholder [BLURB] = "A work of interactive fiction."
 
 ! Other material to release
